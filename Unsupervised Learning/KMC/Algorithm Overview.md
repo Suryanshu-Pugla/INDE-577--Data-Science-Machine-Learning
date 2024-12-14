@@ -1,6 +1,7 @@
 ### **README: K-Means Clustering Overview**
 
----
+![0__XwxbKHayTU8QG44](https://github.com/user-attachments/assets/b1f15fc8-2f8b-4aa0-8179-22bfa821950b)
+
 
 ### **Introduction to K-Means Clustering**
 
@@ -98,12 +99,12 @@ Where:
 
 The **Elbow Method** helps determine the optimal number of clusters by plotting the **Within-Cluster Sum of Squares (WCSS)** against different values of `k` and identifying the "elbow point."
 
----
+![0_aY163H0kOrBO46S-](https://github.com/user-attachments/assets/15da7975-3074-40f7-b2e9-e9acfeda0cb4)
+
 
 ### **Conclusion**
 K-Means clustering is a versatile and widely used algorithm for grouping data into meaningful clusters. Despite its simplicity, it has proven effective in various applications such as customer segmentation and pattern recognition. However, users must carefully select the number of clusters (`k`) and ensure proper data preprocessing to achieve optimal results.
 
----
 
 
 
