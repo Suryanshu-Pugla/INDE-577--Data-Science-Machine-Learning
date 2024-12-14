@@ -31,7 +31,8 @@ DBSCAN revolves around three key concepts:
 
 dbscan clustering
 
-![dbscan](https://github.com/user-attachments/assets/c4d6a3ef-ec98-417c-8332-cef2f21262c6)
+![DBSCAN-core-border-and-noise-points](https://github.com/user-attachments/assets/bc6ccaa3-05aa-4c44-b6dc-9a5e29c3d752)
+
 
 
 The diagram above illustrates these concepts. Core points (blue) form the heart of clusters, border points (orange) are on the edge of clusters, and noise points (red) are isolated.
