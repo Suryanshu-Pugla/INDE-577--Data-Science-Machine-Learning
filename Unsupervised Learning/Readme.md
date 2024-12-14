@@ -1,6 +1,7 @@
 ### **Unsupervised Machine Learning**
 
----
+![1_0SkUsGp9ntltiYg4KJuPVQ](https://github.com/user-attachments/assets/d302882e-30bf-4b49-a6b3-17030e40fda1)
+
 
 ### **What is Unsupervised Learning?**
 
@@ -88,7 +89,8 @@ Unsupervised learning is a branch of machine learning that uses algorithms to an
 | **Algorithms**              | K-Means, PCA, DBSCAN                | Linear Regression, Random Forest    |
 | **Human Intervention**      | Minimal                            | Requires manual labeling            |
 
----
+![1632916005843](https://github.com/user-attachments/assets/0ff5deac-c101-462e-a349-c60aa7fe9944)
+
 
 ### **Conclusion**
 
