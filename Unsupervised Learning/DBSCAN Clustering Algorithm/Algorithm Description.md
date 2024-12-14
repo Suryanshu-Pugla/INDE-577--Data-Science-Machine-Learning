@@ -16,6 +16,7 @@ While there are numerous clustering algorithms (you might have heard of K-means 
     Density-Based Insight
 
 In this article, we'll look at what the DBSCAN algorithm is, how DBSCAN works, how to implement it in Python, and when to use it in your data science projects.
+
 What is DBSCAN?
 
 DBSCAN, which stands for Density-Based Spatial Clustering of Applications with Noise, is a powerful clustering algorithm that groups points that are closely packed together in data space. Unlike some other clustering algorithms, DBSCAN doesn't require you to specify the number of clusters beforehand, making it particularly useful for exploratory data analysis.
@@ -30,7 +31,7 @@ DBSCAN revolves around three key concepts:
 
 dbscan clustering
 
-Image by author
+https://media.datacamp.com/cms/google/ad_4nxczbbrn-drkfpsiiqf1zayyt5xnqiwgpz0qocpnt6au5mintqlk4r1mxlognyzyxxmewlx35vcn53cbwm6iun4hh5i-aokth6fyqhovv1dlill6myhah4hzizcpb-bmv-g8vbiwawgudq8_gkuhqb8yiwja.jpeg
 
 The diagram above illustrates these concepts. Core points (blue) form the heart of clusters, border points (orange) are on the edge of clusters, and noise points (red) are isolated.
 
