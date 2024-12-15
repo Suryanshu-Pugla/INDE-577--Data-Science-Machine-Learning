@@ -1,6 +1,6 @@
 ### **README: Principal Component Analysis (PCA)**
 
----
+![principal-component-analysis-pca-featured](https://github.com/user-attachments/assets/dccf8e7f-1720-42d8-be77-d3bdc264e687)
 
 ### **What is PCA?**
 
@@ -98,7 +98,8 @@ Here’s a basic implementation of PCA using **Scikit-learn**:
 2. **Reconstruction Error**:
    - Measures the difference between the original data and the data reconstructed from principal components.
 
----
+![4543 1548137789](https://github.com/user-attachments/assets/235fb6cc-8326-4014-bcd2-e79c5310ff87)
+
 
 ### **Conclusion**
 
