@@ -1,11 +1,10 @@
 ### **PCA Analysis on Wholesale Customers Dataset**
 
 ---
-
 ### **Project Overview**
 This project applies the **Principal Component Analysis (PCA)** algorithm to the **Wholesale Customers Dataset** to analyze customer spending patterns across various product categories. PCA is used for dimensionality reduction to uncover hidden patterns and simplify data visualization.
 
----
+<img width="331" alt="PrincipalComponents" src="https://github.com/user-attachments/assets/8604039f-c9e3-4be9-ab10-0130550a1b4a" />
 
 ### **Dataset Overview**
 
@@ -110,29 +109,5 @@ This project applies the **Principal Component Analysis (PCA)** algorithm to the
 
 ---
 
-### **Future Directions**
-
-1. **Clustering Comparison**:
-   - Compare K-Means results with **DBSCAN** or **Hierarchical Clustering**.
-
-2. **Advanced Dimensionality Reduction**:
-   - Explore **t-SNE** or **UMAP** for non-linear dimensionality reduction.
-
-3. **Customer Insights**:
-   - Use domain knowledge to label clusters and develop marketing strategies based on spending patterns.
-
-4. **Interactive Visualization**:
-   - Create dynamic dashboards using tools like **Plotly** or **Dash** for real-time exploration of PCA results.
-
----
-
-### **Contributors**
-- [Your Name] - Data Scientist and Project Contributor.
-
----
-
-### **License**
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
+![pca_title-1](https://github.com/user-attachments/assets/120a0d0d-a598-4cea-96e4-bc1df7ce428d)
 
