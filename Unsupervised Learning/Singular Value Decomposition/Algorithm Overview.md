@@ -1,5 +1,40 @@
 ![maxresdefault](https://github.com/user-attachments/assets/fc4618f4-44eb-4fc5-92ff-dccc3cc015ed)
 
+
+![Image Description](https://github.com/user-attachments/assets/fc4618f4-44eb-4fc5-92ff-dccc3cc015ed)
+
+
+
+<img src="https://github.com/user-attachments/assets/fc4618f4-44eb-4fc5-92ff-dccc3cc015ed" alt="Example Image" width="500">
+
+
+
+
+<img src="https://github.com/user-attachments/assets/fc4618f4-44eb-4fc5-92ff-dccc3cc015ed" alt="Example Image" style="width:50%; height:auto;">
+
+
+
+
+
+
+# Project Title
+
+This is an example of a resized image:
+
+<img src="https://github.com/user-attachments/assets/fc4618f4-44eb-4fc5-92ff-dccc3cc015ed" alt="Example Image" width="500">
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### **Singular Value Decomposition (SVD)**
 
 ---
