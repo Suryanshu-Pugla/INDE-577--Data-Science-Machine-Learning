@@ -52,7 +52,7 @@ This project demonstrates the application of **logistic regression** to classify
 - Achieved an **accuracy of 75%** on the test dataset.
 - Observed the **precision, recall, and F1-score** for both classes.
 
-![493922_1_En_42_Fig4_HTML](https://github.com/user-attachments/assets/6d59192d-a32c-43fd-a557-fa4c4d422c17)
+---
 
 ### **Graphs and Visualizations**
 
@@ -61,7 +61,9 @@ This project demonstrates the application of **logistic regression** to classify
 
 #### **2. Precision-Recall Trade-off**
 - Explored precision-recall trade-offs using the classification report.
-
+  
+---
+![493922_1_En_42_Fig4_HTML](https://github.com/user-attachments/assets/6d59192d-a32c-43fd-a557-fa4c4d422c17)
 ---
 
 ### **Results**
