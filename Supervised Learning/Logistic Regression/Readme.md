@@ -99,8 +99,7 @@ weighted avg       0.74      0.75      0.75       154
    - Features like **Glucose** and **BMI** showed strong correlations with diabetes presence, as observed during data exploration.
 
 ---
-
-![493922_1_En_42_Fig4_HTML](https://github.com/user-attachments/assets/b26c69f0-a16f-4806-b820-c5132c71cb71)
+![493922_1_En_42_Fig4_HTML](https://github.com/user-attachments/assets/e23195f5-ad82-4146-a0eb-de9e2430c816)
 ---
 
 ### **Next Steps**
