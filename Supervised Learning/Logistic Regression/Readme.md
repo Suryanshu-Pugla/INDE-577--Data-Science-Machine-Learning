@@ -98,29 +98,9 @@ weighted avg       0.74      0.75      0.75       154
 3. **Feature Importance**:
    - Features like **Glucose** and **BMI** showed strong correlations with diabetes presence, as observed during data exploration.
 
+---
 
-![493922_1_En_42_Fig4_HTML](https://github.com/user-attachments/assets/233ebec6-1ed6-4002-b55e-89d5f5bc157b)
-
-### **How to Run the Project**
-
-#### **1. Clone the Repository**
-```bash
-git clone <repository_link>
-cd logistic-regression-diabetes
-```
-
-#### **2. Install Dependencies**
-Ensure Python is installed and the required libraries are available:
-```bash
-pip install numpy pandas scikit-learn matplotlib
-```
-
-#### **3. Run the Script**
-Execute the script to preprocess the data, train the model, and view results:
-```bash
-python logistic_regression_diabetes.py
-```
-
+![493922_1_En_42_Fig4_HTML](https://github.com/user-attachments/assets/b26c69f0-a16f-4806-b820-c5132c71cb71)
 ---
 
 ### **Next Steps**
