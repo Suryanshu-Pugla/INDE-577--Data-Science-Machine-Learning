@@ -1,6 +1,6 @@
 ### **Logistic Regression Algorithm**
 
-![2023_01_MicrosoftTeams-image-114-1](https://github.com/user-attachments/assets/d15c2a0e-8555-4502-a479-c6d818a404e9)
+<img src="https://github.com/user-attachments/assets/d15c2a0e-8555-4502-a479-c6d818a404e9" alt="Resized Image" width="75%">
 
 ### **Overview**
 Logistic regression is a **supervised learning algorithm** used primarily for classification tasks. Despite its name, logistic regression is a classification model, not a regression model. It predicts the probability of an input belonging to a specific class and assigns a label based on a threshold (default: 0.5).
