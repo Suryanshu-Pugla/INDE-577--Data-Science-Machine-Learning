@@ -1,6 +1,6 @@
 ### **Linear Regression Algorithm**
 
-![62413fa0-3d80-411c-af93-ebd0f096a26a_1042x644](https://github.com/user-attachments/assets/599699dc-dfb9-4495-944a-e1d41afd252e)
+<img src="https://github.com/user-attachments/assets/599699dc-dfb9-4495-944a-e1d41afd252e" alt="Resized Image" width="50%">
 
 ### **Overview**
 Linear regression is one of the simplest and most widely used **supervised learning algorithms** in machine learning. It is primarily used for **predicting a continuous target variable** based on one or more input features (independent variables). The goal of linear regression is to model the relationship between the input features and the target as a straight line (or a hyperplane in higher dimensions).
@@ -46,7 +46,7 @@ Weights (w) and bias (b) are optimized using **gradient descent** or by solving 
 
 w = (X<sup>T</sup> X)<sup>-1</sup> X<sup>T</sup> y
 
-![11111111](https://github.com/user-attachments/assets/59d9929e-477e-4c9b-b9b7-4067763e055c)
+<img src="https://github.com/user-attachments/assets/59d9929e-477e-4c9b-b9b7-4067763e055c" alt="Resized Image" width="50%">
 
 ### **Types of Linear Regression**
 1. **Simple Linear Regression**:
@@ -112,7 +112,7 @@ To assess the performance of a linear regression model, the following metrics ar
 
    Measures the proportion of variance in the target variable explained by the model.
 
----
+![1_wxiLkyvlAoF56w4g0MzhVA](https://github.com/user-attachments/assets/eb45c326-9277-4909-b2ee-fb131d8fd808)
 
 ### **Conclusion**
 Linear regression is a foundational algorithm in machine learning. Its simplicity and efficiency make it a go-to solution for problems involving continuous target variables, provided the assumptions of linearity and independence are met. For non-linear relationships, techniques like polynomial regression or advanced models like decision trees may be better suited.
