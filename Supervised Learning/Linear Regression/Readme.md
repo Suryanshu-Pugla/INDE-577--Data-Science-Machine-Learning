@@ -1,4 +1,4 @@
-### Linear Regression on Advertising Dataset**
+### Linear Regression on Advertising Dataset
 
 <img src="https://github.com/user-attachments/assets/c9f347ec-4930-46b0-9116-0ef73ea02b84" alt="Resized Image" width="60%">
 
