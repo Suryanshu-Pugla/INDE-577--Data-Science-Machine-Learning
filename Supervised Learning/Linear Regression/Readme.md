@@ -1,6 +1,6 @@
 ### Linear Regression on Advertising Dataset**
 
-< img src="https://github.com/user-attachments/assets/c9f347ec-4930-46b0-9116-0ef73ea02b84)" alt="Resized Image" width="60%">
+<img src="https://github.com/user-attachments/assets/c9f347ec-4930-46b0-9116-0ef73ea02b84" alt="Resized Image" width="60%">
 
 ### **Project Overview**
 This project demonstrates the use of **linear regression** to predict sales based on advertising expenditure. The dataset contains information on advertising budgets across three channels—TV, radio, and newspaper—and their impact on sales. The goal is to understand the relationships between advertising spending and sales and to build a predictive model.
@@ -43,8 +43,7 @@ This project demonstrates the use of **linear regression** to predict sales base
   - **R-squared Score (R²)**.
 - Visualized the actual vs. predicted sales values.
 
-" img src="https://github.com/user-attachments/assets/5caa6633-de9d-4c0c-ab5e-01b142f06d8b" alt="Resized Image" width="80%"> 
-
+<img src="https://github.com/user-attachments/assets/5caa6633-de9d-4c0c-ab5e-01b142f06d8b" alt="Resized Image" width="80%"> 
 
 ### **Results**
 
