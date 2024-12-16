@@ -2,7 +2,8 @@
 
 ![logisticregression](https://github.com/user-attachments/assets/b6072599-4443-4727-b892-86c8d6eb5d7f)
 
-![images](https://github.com/user-attachments/assets/5082a207-100d-4db3-b2f5-d588241c0f16)
+![493922_1_En_42_Fig4_HTML](https://github.com/user-attachments/assets/6d59192d-a32c-43fd-a557-fa4c4d422c17)
+
 
 ### **Project Overview**
 This project demonstrates the application of **logistic regression** to classify whether a patient is likely to have diabetes based on specific health measurements. The dataset used is the **Pima Indians Diabetes Dataset**, a widely-used dataset for binary classification problems in machine learning.
