@@ -90,6 +90,66 @@ weighted avg       0.74      0.75      0.75       154
 ---
 
 ### **Key Insights**
+
+1. **Imbalanced Performance**:
+   - The model performs better for the majority class (non-diabetic) due to an imbalanced dataset.
+   - Recall for the diabetic class (1) was lower, indicating room for improvement.
+
+2. **Threshold Optimization**:
+   - Adjusting the classification threshold might improve recall for the diabetic class.
+
+3. **Feature Importance**:
+   - Features like **Glucose** and **BMI** showed strong correlations with diabetes presence, as observed during data exploration.
+
+---
+
+### **Next Steps**
+
+1. **Handle Imbalanced Data**:
+   - Use techniques like **SMOTE (Synthetic Minority Oversampling Technique)** to balance the dataset.
+   - Experiment with class weights in the logistic regression model.
+
+2. **Feature Engineering**:
+   - Explore interactions between features (e.g., Glucose * BMI).
+   - Apply feature selection methods to identify the most impactful predictors.
+
+3. **Hyperparameter Tuning**:
+   - Use grid search or random search to optimize hyperparameters like regularization strength.
+
+4. **Comparison with Other Models**:
+   - Compare logistic regression with advanced models like decision trees, random forests, or gradient boosting.
+
+---
+
+
+
+
+
+
+
+
+#### **Key Metrics**
+- **Accuracy**: 75%
+- **Confusion Matrix**:
+  - **True Positives (TP)**: 37
+  - **True Negatives (TN)**: 79
+  - **False Positives (FP)**: 20
+  - **False Negatives (FN)**: 18
+- **Classification Report**:
+  ```
+              precision    recall  f1-score   support
+
+           0       0.79      0.85      0.81        99
+           1       0.67      0.57      0.62        55
+
+    accuracy                           0.75       154
+   macro avg       0.73      0.71      0.72       154
+weighted avg       0.74      0.75      0.75       154
+  ```
+
+---
+
+### **Key Insights**
 1. **Imbalanced Performance**:
    - The model performs better for the majority class (non-diabetic) due to an imbalanced dataset.
    - Recall for the diabetic class (1) was lower, indicating room for improvement.
