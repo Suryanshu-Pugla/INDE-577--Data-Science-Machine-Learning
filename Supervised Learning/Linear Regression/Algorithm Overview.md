@@ -46,7 +46,7 @@ Weights (w) and bias (b) are optimized using **gradient descent** or by solving 
 
 w = (X<sup>T</sup> X)<sup>-1</sup> X<sup>T</sup> y
 
-<img src="https://github.com/user-attachments/assets/59d9929e-477e-4c9b-b9b7-4067763e055c" alt="Resized Image" width="50%">
+![1603214035621](https://github.com/user-attachments/assets/0c84107c-261a-4316-a9b3-d0f6b2baea07)
 
 ### **Types of Linear Regression**
 1. **Simple Linear Regression**:
@@ -112,7 +112,7 @@ To assess the performance of a linear regression model, the following metrics ar
 
    Measures the proportion of variance in the target variable explained by the model.
 
-![1_wxiLkyvlAoF56w4g0MzhVA](https://github.com/user-attachments/assets/eb45c326-9277-4909-b2ee-fb131d8fd808)
+<img src="https://github.com/user-attachments/assets/eb45c326-9277-4909-b2ee-fb131d8fd808" alt="Resized Image" width="75%">
 
 ### **Conclusion**
 Linear regression is a foundational algorithm in machine learning. Its simplicity and efficiency make it a go-to solution for problems involving continuous target variables, provided the assumptions of linearity and independence are met. For non-linear relationships, techniques like polynomial regression or advanced models like decision trees may be better suited.
