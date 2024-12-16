@@ -2,8 +2,6 @@
 
 <img src="https://github.com/user-attachments/assets/d302882e-30bf-4b49-a6b3-17030e40fda1" alt="Resized Image" width="75%">
 
-<img src="https://github.com/user-attachments/assets/d302882e-30bf-4b49-a6b3-17030e40fda1" alt="Resized Image" width="75%">
-
 ### **What is Unsupervised Learning?**
 
 Unsupervised learning is a branch of machine learning that uses algorithms to analyze and cluster unlabeled datasets. The goal is to discover hidden patterns or relationships in data without requiring explicit human labeling or intervention.
