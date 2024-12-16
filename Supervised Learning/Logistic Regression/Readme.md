@@ -86,7 +86,7 @@ This project demonstrates the application of **logistic regression** to classify
 
     accuracy                           0.75       154
    macro avg       0.73      0.71      0.72       154
-weighted avg       0.74      0.75      0.75       154
+
   ```
 
 ---
