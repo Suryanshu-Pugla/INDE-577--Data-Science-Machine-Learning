@@ -2,6 +2,7 @@
 
 ![1_0SkUsGp9ntltiYg4KJuPVQ](https://github.com/user-attachments/assets/d302882e-30bf-4b49-a6b3-17030e40fda1)
 
+<img src="https://github.com/user-attachments/assets/d302882e-30bf-4b49-a6b3-17030e40fda1" alt="Resized Image" width="75%">
 
 ### **What is Unsupervised Learning?**
 
