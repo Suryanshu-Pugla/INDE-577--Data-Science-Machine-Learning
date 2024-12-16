@@ -1,6 +1,6 @@
 ### **Linear Regression Algorithm**
 
----
+![62413fa0-3d80-411c-af93-ebd0f096a26a_1042x644](https://github.com/user-attachments/assets/599699dc-dfb9-4495-944a-e1d41afd252e)
 
 ### **Overview**
 Linear regression is one of the simplest and most widely used **supervised learning algorithms** in machine learning. It is primarily used for **predicting a continuous target variable** based on one or more input features (independent variables). The goal of linear regression is to model the relationship between the input features and the target as a straight line (or a hyperplane in higher dimensions).
@@ -46,7 +46,7 @@ Weights (w) and bias (b) are optimized using **gradient descent** or by solving 
 
 w = (X<sup>T</sup> X)<sup>-1</sup> X<sup>T</sup> y
 
----
+![11111111](https://github.com/user-attachments/assets/59d9929e-477e-4c9b-b9b7-4067763e055c)
 
 ### **Types of Linear Regression**
 1. **Simple Linear Regression**:
