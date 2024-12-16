@@ -116,21 +116,6 @@ To prevent overfitting, regularization techniques are applied:
 
 ---
 
-### **Mathematical Summary**
-1. **Linear Model**:
-\[
- z = w_1x_1 + w_2x_2 + \ldots + w_nx_n + b
-\]
-2. **Sigmoid Function**:
-\[
- \hat{y} = \frac{1}{1 + e^{-z}}
-\]
-3. **Log-Loss Function**:
-\[
- J(w, b) = - \frac{1}{m} \sum_{i=1}^m \Big[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) \Big]
-\]
-
-
 ![linear-regression-vs-logistic-regression](https://github.com/user-attachments/assets/945e2d3b-f4b7-4da2-9fa8-37885882b634)
 
 ### **Conclusion**
