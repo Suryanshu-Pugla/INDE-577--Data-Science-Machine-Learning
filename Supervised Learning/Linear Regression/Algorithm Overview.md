@@ -116,6 +116,18 @@ To assess the performance of a linear regression model, the following metrics ar
    \]
    Measures the proportion of variance in the target variable explained by the model.
 
+Mean Squared Error (MSE):
+MSE=1m∑i=1m(yi−y^i)2
+MSE=m1​i=1∑m​(yi​−y^​i​)2
+Mean Absolute Error (MAE):
+MAE=1m∑i=1m∣yi−y^i∣
+MAE=m1​i=1∑m​
+​yi​−y^​i​
+​
+R-squared (Coefficient of Determination):
+R2=1−SSresSStot
+R2=1−SStot​SSres​​
+
 ---
 
 ### **Conclusion**
