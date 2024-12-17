@@ -1,6 +1,6 @@
 ### **Overview of Neural Networks**
 
-![vd78l0x8 deviator-2_(1)](https://github.com/user-attachments/assets/19df5cb2-48ae-460c-8771-f994a5282487)
+<img src="https://github.com/user-attachments/assets/19df5cb2-48ae-460c-8771-f994a5282487" alt="resized" width="60%">
 
 ### **What are Neural Networks?**
 Neural Networks (NN) are a class of **supervised learning algorithms** inspired by the structure and function of the human brain. They consist of interconnected layers of nodes (neurons) that are designed to recognize patterns, model complex relationships, and make predictions. Neural networks are widely used in modern machine learning and form the foundation of **deep learning**.
