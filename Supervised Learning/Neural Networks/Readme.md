@@ -1,6 +1,6 @@
 ### **Neural Networks on Social_Network_Ads Dataset**
 
-<img src="img.webp" alt="resized" width="75%">
+<img src="img.webp" alt="resized" width="55%">
 
 ### **Project Overview**
 This project demonstrates the application of a **Dense Neural Network** (DNN) to classify whether a user purchases a product based on their **Age** and **Estimated Salary** using the **Social_Network_Ads dataset**. Neural networks, inspired by the human brain, are used here to model complex relationships between input features and the binary target variable.
