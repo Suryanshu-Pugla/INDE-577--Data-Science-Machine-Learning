@@ -1,6 +1,6 @@
-### **README: Neural Networks on Social_Network_Ads Dataset**
+### **Neural Networks on Social_Network_Ads Dataset**
 
----
+![social-media-advertising](https://github.com/user-attachments/assets/08cec815-912c-4067-9f7f-a93701797c1a)
 
 ### **Project Overview**
 This project demonstrates the application of a **Dense Neural Network** (DNN) to classify whether a user purchases a product based on their **Age** and **Estimated Salary** using the **Social_Network_Ads dataset**. Neural networks, inspired by the human brain, are used here to model complex relationships between input features and the binary target variable.
@@ -54,7 +54,7 @@ The project involves data preprocessing, building a neural network, training the
 - Plotted the confusion matrix to analyze the performance.
 - Visualized the training and validation loss curves over epochs.
 
----
+![artificial-neural-network6](https://github.com/user-attachments/assets/7fb3ccf8-272a-4e56-a22c-e1bdca582c56)
 
 ### **Results**
 
