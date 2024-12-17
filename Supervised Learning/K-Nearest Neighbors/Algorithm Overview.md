@@ -1,5 +1,7 @@
 ### **Overview of the K-Nearest Neighbors (KNN) Algorithm**
 
+![knn](https://github.com/user-attachments/assets/df597239-f0ff-4c91-8b04-d1a89eecabd9)
+
 ---
 
 ### **What is K-Nearest Neighbors (KNN)?**
@@ -39,7 +41,8 @@ K-Nearest Neighbors (KNN) is a **non-parametric**, **supervised learning algorit
    - **Classification**: Assign the class label based on the majority vote among the nearest neighbors.
    - **Regression**: Predict the target value as the average (or weighted average) of the nearest neighbors.
 
----
+![0_VFznlvgTqjs1WIc6](https://github.com/user-attachments/assets/ab8258df-3042-427b-bb2d-bdc8f18fc4c4)
+
 
 ### **Choosing the Value of k**
 - **Small k**: Leads to more complex models that may overfit the training data (high variance).
