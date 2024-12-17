@@ -48,7 +48,7 @@ Where:
 - **η (eta)**: Learning rate (controls the size of weight updates).
 - **xₚ**: Input feature value.
 
----
+![0_ZoXnUr87zpRe-CN4](https://github.com/user-attachments/assets/9cb0ad7a-0d90-4ba0-b9c8-b0979df2f1b2)
 
 ### **How the Perceptron Algorithm Works**
 1. **Initialize Weights**:
@@ -60,8 +60,7 @@ Where:
 4. **Repeat**:
    - Iterate through the dataset multiple times (epochs) until convergence.
 
-![sddefault](https://github.com/user-attachments/assets/08fc62ce-6cd0-4ad0-a007-6ec33b855467)
-
+---
 
 ### **Strengths of the Perceptron**
 1. **Simple and Fast**:
