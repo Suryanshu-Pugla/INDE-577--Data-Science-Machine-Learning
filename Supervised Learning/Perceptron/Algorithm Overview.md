@@ -1,6 +1,6 @@
 ### **Overview of the Perceptron Algorithm**
 
----
+![Support Vector Machine intro (1)](https://github.com/user-attachments/assets/e920a5f3-3d23-48b5-b362-a9a431b7ef1b)
 
 ### **What is the Perceptron Algorithm?**
 The Perceptron is one of the earliest and simplest **supervised learning algorithms** used for **binary classification** tasks. It was introduced by **Frank Rosenblatt** in 1958 and serves as the foundation for neural networks and deep learning. The algorithm works by finding a **linear decision boundary** that separates two classes.
@@ -60,7 +60,8 @@ Where:
 4. **Repeat**:
    - Iterate through the dataset multiple times (epochs) until convergence.
 
----
+![sddefault](https://github.com/user-attachments/assets/08fc62ce-6cd0-4ad0-a007-6ec33b855467)
+
 
 ### **Strengths of the Perceptron**
 1. **Simple and Fast**:
@@ -90,7 +91,8 @@ Where:
 3. **Decision-Making**:
    - Situations requiring simple, interpretable decision boundaries.
 
----
+![1_hkYlTODpjJgo32DoCOWN5w](https://github.com/user-attachments/assets/37d973b6-e41e-4427-8114-2200eebbaede)
+
 
 ### **Conclusion**
 The Perceptron algorithm is a fundamental building block in machine learning and neural networks. While limited to linearly separable problems, it remains a crucial concept for understanding more complex learning algorithms, such as multi-layer perceptrons and deep learning.
