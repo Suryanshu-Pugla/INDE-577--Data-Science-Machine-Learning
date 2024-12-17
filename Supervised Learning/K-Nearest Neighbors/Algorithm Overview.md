@@ -1,6 +1,6 @@
 ### **Overview of the K-Nearest Neighbors (KNN) Algorithm**
 
-![knn](https://github.com/user-attachments/assets/df597239-f0ff-4c91-8b04-d1a89eecabd9)
+<img src="https://github.com/user-attachments/assets/df597239-f0ff-4c91-8b04-d1a89eecabd9" alt="resized image" width="40%">
 
 ---
 
@@ -26,13 +26,12 @@ K-Nearest Neighbors (KNN) is a **non-parametric**, **supervised learning algorit
    - Common distance metrics include:
      - **Euclidean Distance** (most common):
        \[
-       d = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
+       d = sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
        \]
      - **Manhattan Distance**:
        \[
        d = |x_1 - x_2| + |y_1 - y_2|
        \]
-     - **Minkowski Distance** (generalized distance measure).
 
 3. **Identify Nearest Neighbors**:
    - Sort the distances in ascending order and select the **k nearest neighbors**.
@@ -41,7 +40,7 @@ K-Nearest Neighbors (KNN) is a **non-parametric**, **supervised learning algorit
    - **Classification**: Assign the class label based on the majority vote among the nearest neighbors.
    - **Regression**: Predict the target value as the average (or weighted average) of the nearest neighbors.
 
-![0_VFznlvgTqjs1WIc6](https://github.com/user-attachments/assets/ab8258df-3042-427b-bb2d-bdc8f18fc4c4)
+<img src="https://github.com/user-attachments/assets/ab8258df-3042-427b-bb2d-bdc8f18fc4c4" alt="resized" width="75%">
 
 
 ### **Choosing the Value of k**
