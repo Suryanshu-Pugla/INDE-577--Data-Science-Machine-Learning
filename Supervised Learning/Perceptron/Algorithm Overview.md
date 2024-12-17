@@ -48,7 +48,7 @@ Where:
 - **η (eta)**: Learning rate (controls the size of weight updates).
 - **xₚ**: Input feature value.
 
-<img src="https://github.com/user-attachments/assets/9cb0ad7a-0d90-4ba0-b9c8-b0979df2f1b2)" alt="resized image" width="80%">
+<img src="https://github.com/user-attachments/assets/9cb0ad7a-0d90-4ba0-b9c8-b0979df2f1b2" alt="resized image" width="80%">
 
 ### **How the Perceptron Algorithm Works**
 1. **Initialize Weights**:
@@ -90,8 +90,7 @@ Where:
 3. **Decision-Making**:
    - Situations requiring simple, interpretable decision boundaries.
 
-<img src="https://github.com/user-attachments/assets/37d973b6-e41e-4427-8114-2200eebbaede)" alt="resized image" width="90%">
-
+<img src="https://github.com/user-attachments/assets/37d973b6-e41e-4427-8114-2200eebbaede" alt="Resized Image" width="90%">
 
 ### **Conclusion**
 The Perceptron algorithm is a fundamental building block in machine learning and neural networks. While limited to linearly separable problems, it remains a crucial concept for understanding more complex learning algorithms, such as multi-layer perceptrons and deep learning.
