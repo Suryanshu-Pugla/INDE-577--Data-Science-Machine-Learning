@@ -28,34 +28,6 @@ Boosting works in the following steps:
 
 ---
 
-### **Mathematics Behind Boosting**
-Boosting algorithms minimize a loss function by sequentially updating weights of training samples and combining weak learners.
-
-#### **General Steps**:
-1. Train a weak learner \( f_m(x) \) on weighted data.
-2. Compute the error \( e_m \) on training data.
-3. Calculate the weight of the weak learner:
-   
-   \[
-   \alpha_m = \frac{1}{2} \log\left(\frac{1 - e_m}{e_m}\right)
-   \]
-   where \( e_m \) is the weighted error.
-
-4. Update the weights of the training samples:
-   
-   \[
-   w_{i}^{(m+1)} = w_{i}^{(m)} \cdot \exp(-\alpha_m y_i f_m(x_i))
-   \]
-   where \( y_i \) is the actual label, and \( f_m(x_i) \) is the weak learner's prediction.
-
-The final model combines predictions from all weak learners:
-
-\[
-F(x) = \sum_{m=1}^M \alpha_m f_m(x)
-\]
-
----
-
 ### **Popular Boosting Algorithms**
 
 1. **AdaBoost (Adaptive Boosting)**:
