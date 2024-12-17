@@ -36,20 +36,21 @@ Neural networks are composed of multiple layers of interconnected nodes:
 A single neuron performs the following operations:
 
 1. **Weighted Sum**:
-   \[
-   z = w_1x_1 + w_2x_2 + ... + w_nx_n + b
-   \]
+   **z = w₁x₁ + w₂x₂ + ... + wₙxₙ + b**
+
    Where:
-   - **x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>**: Input features.
-   - **w<sub>1</sub>, w<sub>2</sub>, ..., w<sub>n</sub>**: Weights.
+   - **x₁, x₂, ..., xₙ**: Input features.
+   - **w₁, w₂, ..., wₙ**: Weights.
    - **b**: Bias term.
 
 2. **Activation Function**:
-   - A non-linear function is applied to the weighted sum to introduce non-linearity.
-   - Common activation functions include:
-     - **ReLU (Rectified Linear Unit)**: \( f(z) = \max(0, z) \)
-     - **Sigmoid**: \( f(z) = \frac{1}{1 + e^{-z}} \)
-     - **Tanh**: \( f(z) = \frac{e^z - e^{-z}}{e^z + e^{-z}} \)
+   A non-linear function is applied to the weighted sum to introduce non-linearity. 
+   - **ReLU (Rectified Linear Unit)**:
+     **f(z) = max(0, z)**
+   - **Sigmoid**:
+     **f(z) = 1 / (1 + e⁻ᵉ)**
+   - **Tanh**:
+     **f(z) = (eˢ − e⁻ˢ) / (eˢ + e⁻ˢ)**
 
 ---
 
@@ -137,4 +138,6 @@ Neural networks learn through an **iterative optimization process**:
 Neural networks are a powerful family of machine learning algorithms capable of solving highly complex problems. They form the foundation for deep learning and have revolutionized fields like computer vision, natural language processing, and robotics. With advancements in hardware and data availability, neural networks continue to drive innovation in artificial intelligence.
 
 ---
+
+
 
