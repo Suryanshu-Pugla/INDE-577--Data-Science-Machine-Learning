@@ -1,126 +1,162 @@
-# **Regression Tree on California Housing Dataset**
+# **Random Forest Classifier for Heart Disease Prediction**
 
 ## **Project Overview**
-This project demonstrates the use of a **Regression Tree** to predict housing prices using the **California Housing Dataset**. The model is built using the `DecisionTreeRegressor` from the `scikit-learn` library and evaluated using standard regression metrics such as **Mean Squared Error (MSE)** and **R² Score**. The project also includes a visualization of the decision tree to interpret the model's behavior.
+This project uses the **Random Forest Classifier** to predict the presence of heart disease based on patient medical attributes. The dataset contains health-related measurements such as cholesterol level, chest pain type, and maximum heart rate. The goal is to build an accurate and interpretable model to classify patients as having heart disease or not.
 
 ---
 
 ## **Dataset Overview**
 
-### **California Housing Dataset**
-- **Source**: Scikit-learn's built-in dataset ([California Housing](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html)).
-- **Description**: Predicts median house prices in various regions of California based on demographic and geographic features.
-- **Number of Samples**: 20,640
+### **Heart Disease Dataset**
+- **Source**: [Public Heart Disease Dataset](https://github.com/plotly/datasets)
+- **Description**: The dataset includes medical attributes of patients to predict the binary target variable `target`:
+   - `0`: No Heart Disease.
+   - `1`: Heart Disease.
+- **Number of Samples**: 303
 - **Features**:
-   - `MedInc`: Median income in block group.
-   - `HouseAge`: Average house age in block group.
-   - `AveRooms`: Average number of rooms per household.
-   - `AveBedrms`: Average number of bedrooms per household.
-   - `Population`: Block group population.
-   - `AveOccup`: Average house occupancy.
-   - `Latitude`: Latitude of block group.
-   - `Longitude`: Longitude of block group.
-- **Target**: Median house value (continuous variable).
+   - `age`: Age of the patient.
+   - `sex`: Gender (0 = female, 1 = male).
+   - `cp`: Chest pain type (categorical: 0-3).
+   - `trestbps`: Resting blood pressure (in mm Hg).
+   - `chol`: Serum cholesterol (in mg/dl).
+   - `fbs`: Fasting blood sugar (> 120 mg/dl, 1 = true, 0 = false).
+   - `restecg`: Resting electrocardiographic results.
+   - `thalach`: Maximum heart rate achieved.
+   - `exang`: Exercise-induced angina (1 = yes, 0 = no).
+   - `oldpeak`: ST depression induced by exercise relative to rest.
+   - `slope`: Slope of the peak exercise ST segment.
+   - `ca`: Number of major vessels colored by fluoroscopy (0-4).
+   - `thal`: Thalassemia (3 = normal, 6 = fixed defect, 7 = reversible defect).
+   - `target`: The binary target variable (0 = no heart disease, 1 = heart disease).
 
 ---
 
 ## **Steps in the Project**
 
 ### **1. Load and Explore the Dataset**
-- Load the California Housing Dataset using `fetch_california_housing` from scikit-learn.
-- Explore the dataset to understand the features and target variable.
+- Load the dataset into a pandas DataFrame.
+- Analyze the first few rows and check for missing values.
 
 ### **2. Data Preprocessing**
+- Identify missing values (if any).
+- Separate the features (`X`) and the target (`y`).
 - Split the dataset into **training (80%)** and **testing (20%)** subsets using `train_test_split`.
 
-### **3. Train the Regression Tree Model**
-- Use the **DecisionTreeRegressor** from scikit-learn.
-- Hyperparameters:
-   - `criterion='squared_error'`: Mean Squared Error is used to measure split quality.
-   - `max_depth=5`: Limits the depth of the tree to prevent overfitting.
+### **3. Train the Random Forest Classifier**
+- Build a **Random Forest Classifier** using scikit-learn:
+   - **n_estimators**: 100 decision trees.
+   - **max_depth**: 5 (limits tree depth to prevent overfitting).
+   - **random_state**: Ensures reproducibility.
 
 ### **4. Model Evaluation**
-The model performance is evaluated using:
+The model is evaluated using the following metrics:
 
-#### **Mean Squared Error (MSE):**
+#### **Accuracy**
+Measures the percentage of correct predictions:
 $$
-MSE = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2
+Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
 $$
 Where:
-- \( y_i \): Actual target value for sample \( i \).
-- \( \hat{y}_i \): Predicted target value for sample \( i \).
-- \( n \): Number of samples.
+- TP = True Positives, TN = True Negatives
+- FP = False Positives, FN = False Negatives
 
-#### **R² Score:**
-$$
-R^2 = 1 - \frac{\sum_{i=1}^n (y_i - \hat{y}_i)^2}{\sum_{i=1}^n (y_i - \bar{y})^2}
-$$
-Where:
-- \( \bar{y} \): Mean of the actual target values.
-- R² measures how well the model explains the variance in the data.
+#### **Confusion Matrix**
+A table showing true/false predictions for both classes:
+```
+[[TN  FP]
+ [FN  TP]]
+```
+
+#### **Classification Report**
+Includes precision, recall, and F1-score for each class:
+```
+              precision    recall  f1-score   support
+
+           0       0.83      0.86      0.85        29
+           1       0.87      0.84      0.85        32
+
+    accuracy                           0.85        61
+   macro avg       0.85      0.85      0.85        61
+weighted avg       0.85      0.85      0.85        61
+```
+
+---
+
+### **5. Feature Importance**
+The importance of each feature in predicting heart disease is computed and visualized:
+- **Most Important Features**:
+   - `thalach`: Maximum heart rate achieved.
+   - `cp`: Chest pain type.
+   - `ca`: Number of major vessels.
 
 ---
 
 ## **Dependencies**
 Ensure the following Python libraries are installed:
 ```bash
-pip install pandas numpy scikit-learn matplotlib
+pip install pandas numpy scikit-learn matplotlib seaborn
 ```
 
 ---
 
 ## **How to Run the Project**
 1. Copy the project code into a Python file or Jupyter Notebook.
-2. Install the required libraries using the command above.
+2. Install the required dependencies using the command above.
 3. Run the script.
 
 **Output**:
-- Mean Squared Error (MSE) and R² Score.
-- Visualization of the trained Regression Tree.
+- Model accuracy, confusion matrix, and classification report.
+- Feature importance bar chart.
 
 ---
 
 ## **Results**
-The Regression Tree achieves the following results on the California Housing Dataset:
-- **Mean Squared Error (MSE)**: ~0.52
-- **R² Score**: ~0.66
-
-**Example Output**:
+The Random Forest model achieves the following results on the Heart Disease Dataset:
+- **Model Accuracy**: ~85%
+- **Confusion Matrix**:
 ```
-Dataset Shape: (20640, 8)
-Feature Names: Index(['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population',
-                      'AveOccup', 'Latitude', 'Longitude'], dtype='object')
-
-Regression Tree Results:
-Mean Squared Error (MSE): 0.52
-R² Score: 0.66
+[[25  4]
+ [ 5 27]]
 ```
+- **Classification Report**:
+```
+              precision    recall  f1-score   support
+
+           0       0.83      0.86      0.85        29
+           1       0.87      0.84      0.85        32
+
+    accuracy                           0.85        61
+   macro avg       0.85      0.85      0.85        61
+weighted avg       0.85      0.85      0.85        61
+```
+
+**Feature Importance Visualization**:
+Features like `thalach` (maximum heart rate achieved) and `cp` (chest pain type) are the most important predictors.
 
 ---
 
 ## **Key Insights**
-1. **Feature Importance**:
-   - Features like `MedInc` (Median Income) and `Latitude` are significant contributors to the prediction of house prices.
-2. **Tree Visualization**:
-   - Visualizing the tree reveals how the model splits the data based on feature values to predict housing prices.
-3. **Performance**:
-   - The R² score indicates that the model explains approximately 66% of the variance in house prices.
+1. **Accuracy**: The Random Forest Classifier achieved an accuracy of **85%** on the test dataset.
+2. **Feature Importance**:
+   - `thalach` (maximum heart rate) and `cp` (chest pain type) play significant roles in heart disease prediction.
+3. **Interpretability**: Random Forest provides a robust and interpretable method for understanding which features contribute most to predictions.
 
 ---
 
 ## **Next Steps**
 1. **Hyperparameter Tuning**:
-   - Optimize parameters like `max_depth`, `min_samples_split`, and `min_samples_leaf` using GridSearchCV.
-2. **Ensemble Methods**:
-   - Use methods like **Random Forest** or **Gradient Boosting** to improve predictive accuracy.
-3. **Feature Engineering**:
-   - Explore derived features (e.g., interaction terms) to improve model performance.
+   - Use `GridSearchCV` to optimize parameters such as `n_estimators` and `max_depth`.
+2. **Handling Imbalanced Data**:
+   - Use SMOTE or class weights to handle any imbalance in the dataset.
+3. **Model Comparison**:
+   - Compare Random Forest with other models like **Logistic Regression**, **SVM**, or **Gradient Boosting**.
+4. **Feature Engineering**:
+   - Derive new features to improve predictive performance.
 
 ---
 
 ## **Conclusion**
-This project showcases the use of a **Regression Tree** to predict housing prices using the **California Housing Dataset**. The model demonstrates strong performance with interpretable results, making it an effective tool for understanding feature contributions and decision-making processes.
+The Random Forest Classifier effectively predicts heart disease based on medical attributes. With robust evaluation metrics and interpretable feature importance, the model demonstrates strong performance and provides valuable insights into key predictors of heart disease.
 
 ---
-
 
