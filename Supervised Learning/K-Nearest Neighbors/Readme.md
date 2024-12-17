@@ -1,6 +1,6 @@
 ### **K-Nearest Neighbors on Wine Dataset**
 
-![1_xE8Us7Jb8WdhrfobGSEidQ](https://github.com/user-attachments/assets/d6739369-4322-40f6-b97b-e24676d0d1a1)
+<img src="https://github.com/user-attachments/assets/d6739369-4322-40f6-b97b-e24676d0d1a1" alt="resized" width="40%">
 
 ### **Project Overview**
 This project demonstrates the application of the **K-Nearest Neighbors (KNN)** algorithm for **multi-class classification** using the **Wine Dataset**. The goal is to classify wines into one of three classes based on their chemical composition.
@@ -53,8 +53,7 @@ KNN is a distance-based supervised machine learning algorithm that classifies da
 - Visualized the accuracy for different values of **k** to determine the best-performing k.
 - Plotted the **confusion matrix** to better understand model predictions.
 
-![Step-by-Step-KNN-in-Python--1-](https://github.com/user-attachments/assets/dbf568fe-8641-42b4-a789-946a2c333a30)
-
+<img src="https://github.com/user-attachments/assets/dbf568fe-8641-42b4-a789-946a2c333a30" alt="resized" width="60%">
 
 ### **Results**
 
@@ -141,5 +140,4 @@ python knn_wine_dataset.py
    - Perform k-fold cross-validation to ensure robust model evaluation.
 
 ---
-![images](https://github.com/user-attachments/assets/df145fdf-78c0-4d74-8d67-42b0607d99e5)
 
