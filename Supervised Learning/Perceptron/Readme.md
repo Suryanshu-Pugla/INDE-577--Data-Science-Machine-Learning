@@ -1,6 +1,6 @@
 ### **Perceptron Model on Social_Network_Ads Dataset**
 
-![illu_perceptron_blog-138](https://github.com/user-attachments/assets/09a4323a-92fc-4a43-90a8-6896898f88e4)
+<img src="https://github.com/user-attachments/assets/09a4323a-92fc-4a43-90a8-6896898f88e4" alt="resized image" width="50%">
 
 ### **Project Overview**
 This project demonstrates the application of the **Perceptron model** to classify whether a user purchases a product based on their age and estimated salary. The dataset used is the **Social_Network_Ads** dataset, which is widely used for binary classification problems.
@@ -43,7 +43,7 @@ The Perceptron algorithm is a simple linear classifier that learns a decision bo
 - Plotted the decision boundary to visualize how the Perceptron separates the two classes.
 - Generated a confusion matrix heatmap to evaluate model predictions.
 
-![HX8Pn](https://github.com/user-attachments/assets/0074671f-227d-490f-a02b-4183fdee9e1b)
+<img src="https://github.com/user-attachments/assets/0074671f-227d-490f-a02b-4183fdee9e1b" alt="resized image" width="70%">
 
 
 ### **Results**
