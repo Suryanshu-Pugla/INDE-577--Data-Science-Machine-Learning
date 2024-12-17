@@ -21,39 +21,32 @@ The Perceptron is one of the earliest and simplest **supervised learning algorit
 #### **1. Linear Model**
 The Perceptron calculates a weighted sum of the input features and applies an activation function:
 
-y = f(w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>x<sub>2</sub> + ... + w<sub>n</sub>x<sub>n</sub> + b)
+y = f(w₁x₁ + w₂x₂ + ... + wₙxₙ + b)
 
 Where:
-- **x<sub>1</sub>, x<sub>2</sub>, ..., x<sub>n</sub>**: Input features.
-- **w<sub>1</sub>, w<sub>2</sub>, ..., w<sub>n</sub>**: Weights associated with the input features.
+- **x₁, x₂, ..., xₙ**: Input features.
+- **w₁, w₂, ..., wₙ**: Weights associated with the input features.
 - **b**: Bias term.
 - **f**: Step activation function.
 
 #### **2. Step Activation Function**
 The output of the Perceptron is determined by a threshold:
 
-\[
- f(z) = \begin{cases} 
-     1 & \text{if } z \geq 0 \\
-     0 & \text{otherwise}
- \end{cases}
-\]
+f(z) = 1 if z ≥ 0, otherwise f(z) = 0
 
 Here, \( z = w^T x + b \).
 
 #### **3. Weight Update Rule**
 The Perceptron learns by iteratively updating the weights using the following rule:
 
-\[
- w_j \leftarrow w_j + \eta (y - \hat{y}) x_j
-\]
+wₚ ← wₚ + η (y - ŷ) xₚ
 
 Where:
-- **w<sub>j</sub>**: Weight for feature \( x_j \).
+- **wₚ**: Weight for feature \( xₚ \).
 - **y**: Actual class label.
 - **ŷ**: Predicted class label.
 - **η (eta)**: Learning rate (controls the size of weight updates).
-- **x<sub>j</sub>**: Input feature value.
+- **xₚ**: Input feature value.
 
 ---
 
@@ -103,6 +96,4 @@ Where:
 The Perceptron algorithm is a fundamental building block in machine learning and neural networks. While limited to linearly separable problems, it remains a crucial concept for understanding more complex learning algorithms, such as multi-layer perceptrons and deep learning.
 
 ---
-
-
 
