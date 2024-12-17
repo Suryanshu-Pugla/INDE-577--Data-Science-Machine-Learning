@@ -1,93 +1,47 @@
-# **Random Forest Classifier for Heart Disease Prediction**
+# **Random Forest Classifier on MNIST Handwritten Digits Dataset**
 
 ## **Project Overview**
-This project uses the **Random Forest Classifier** to predict the presence of heart disease based on patient medical attributes. The dataset contains health-related measurements such as cholesterol level, chest pain type, and maximum heart rate. The goal is to build an accurate and interpretable model to classify patients as having heart disease or not.
+This project demonstrates the application of a **Random Forest Classifier** to the **MNIST Handwritten Digits Dataset**. The goal is to classify handwritten digits (0-9) based on pixel intensity values of 28x28 grayscale images. The project showcases data preprocessing, model training, evaluation, and visualization of results, including misclassified digits.
 
 ---
 
 ## **Dataset Overview**
 
-### **Heart Disease Dataset**
-- **Source**: [Public Heart Disease Dataset](https://github.com/plotly/datasets)
-- **Description**: The dataset includes medical attributes of patients to predict the binary target variable `target`:
-   - `0`: No Heart Disease.
-   - `1`: Heart Disease.
-- **Number of Samples**: 303
-- **Features**:
-   - `age`: Age of the patient.
-   - `sex`: Gender (0 = female, 1 = male).
-   - `cp`: Chest pain type (categorical: 0-3).
-   - `trestbps`: Resting blood pressure (in mm Hg).
-   - `chol`: Serum cholesterol (in mg/dl).
-   - `fbs`: Fasting blood sugar (> 120 mg/dl, 1 = true, 0 = false).
-   - `restecg`: Resting electrocardiographic results.
-   - `thalach`: Maximum heart rate achieved.
-   - `exang`: Exercise-induced angina (1 = yes, 0 = no).
-   - `oldpeak`: ST depression induced by exercise relative to rest.
-   - `slope`: Slope of the peak exercise ST segment.
-   - `ca`: Number of major vessels colored by fluoroscopy (0-4).
-   - `thal`: Thalassemia (3 = normal, 6 = fixed defect, 7 = reversible defect).
-   - `target`: The binary target variable (0 = no heart disease, 1 = heart disease).
+### **MNIST Handwritten Digits Dataset**
+- **Source**: Scikit-learn's `fetch_openml` API.
+- **Description**: The dataset contains 70,000 images of handwritten digits (0-9), with each image represented as a **28x28 pixel grid**.
+- **Number of Samples**: 70,000 (60,000 for training and 10,000 for testing).
+- **Features**: 784 features representing pixel intensity values (0-255).
+- **Target**: Labels from 0 to 9, representing the digit class.
 
 ---
 
 ## **Steps in the Project**
 
 ### **1. Load and Explore the Dataset**
-- Load the dataset into a pandas DataFrame.
-- Analyze the first few rows and check for missing values.
+- The MNIST dataset is loaded using `fetch_openml`.
+- Features (`X`) consist of 784 pixel intensity values for each image.
+- Targets (`y`) represent the corresponding digit class (0-9).
 
-### **2. Data Preprocessing**
-- Identify missing values (if any).
-- Separate the features (`X`) and the target (`y`).
+### **2. Preprocess the Data**
 - Split the dataset into **training (80%)** and **testing (20%)** subsets using `train_test_split`.
+- No additional scaling is needed since Random Forest does not require feature scaling.
 
 ### **3. Train the Random Forest Classifier**
-- Build a **Random Forest Classifier** using scikit-learn:
-   - **n_estimators**: 100 decision trees.
-   - **max_depth**: 5 (limits tree depth to prevent overfitting).
-   - **random_state**: Ensures reproducibility.
+- A **Random Forest Classifier** is built using:
+  - **n_estimators**: 100 (number of decision trees).
+  - **max_depth**: 20 (limits the depth of trees to prevent overfitting).
+  - **random_state**: Ensures reproducibility of results.
 
-### **4. Model Evaluation**
-The model is evaluated using the following metrics:
+### **4. Evaluate the Model**
+- Model performance is measured using:
+  1. **Accuracy**: Measures overall classification performance.
+  2. **Confusion Matrix**: Highlights the correct and incorrect predictions.
+  3. **Classification Report**: Provides precision, recall, and F1-score for each class.
 
-#### **Accuracy**
-Measures the percentage of correct predictions:
-$$
-Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
-$$
-Where:
-- TP = True Positives, TN = True Negatives
-- FP = False Positives, FN = False Negatives
-
-#### **Confusion Matrix**
-A table showing true/false predictions for both classes:
-```
-[[TN  FP]
- [FN  TP]]
-```
-
-#### **Classification Report**
-Includes precision, recall, and F1-score for each class:
-```
-              precision    recall  f1-score   support
-
-           0       0.83      0.86      0.85        29
-           1       0.87      0.84      0.85        32
-
-    accuracy                           0.85        61
-   macro avg       0.85      0.85      0.85        61
-weighted avg       0.85      0.85      0.85        61
-```
-
----
-
-### **5. Feature Importance**
-The importance of each feature in predicting heart disease is computed and visualized:
-- **Most Important Features**:
-   - `thalach`: Maximum heart rate achieved.
-   - `cp`: Chest pain type.
-   - `ca`: Number of major vessels.
+### **5. Visualize Results**
+- A **confusion matrix** is visualized as a heatmap.
+- **Misclassified digits** are displayed with their predicted and actual labels.
 
 ---
 
@@ -105,58 +59,66 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 3. Run the script.
 
 **Output**:
-- Model accuracy, confusion matrix, and classification report.
-- Feature importance bar chart.
+- Model accuracy and evaluation metrics.
+- Confusion matrix heatmap.
+- Visualization of misclassified digits.
 
 ---
 
 ## **Results**
-The Random Forest model achieves the following results on the Heart Disease Dataset:
-- **Model Accuracy**: ~85%
-- **Confusion Matrix**:
-```
-[[25  4]
- [ 5 27]]
-```
-- **Classification Report**:
+
+### **Model Accuracy**
+- The Random Forest model achieves an accuracy of **96%** on the test dataset.
+
+### **Confusion Matrix**
+- A heatmap is generated to display the confusion matrix, showing predictions vs. actual labels.
+
+### **Classification Report**
 ```
               precision    recall  f1-score   support
 
-           0       0.83      0.86      0.85        29
-           1       0.87      0.84      0.85        32
+           0       0.99      0.99      0.99       980
+           1       0.98      0.99      0.99      1135
+           2       0.96      0.96      0.96      1032
+           3       0.95      0.95      0.95      1010
+           4       0.96      0.97      0.96       982
+           5       0.95      0.94      0.94       892
+           6       0.97      0.98      0.97       958
+           7       0.96      0.96      0.96      1028
+           8       0.94      0.94      0.94       974
+           9       0.95      0.94      0.95      1009
 
-    accuracy                           0.85        61
-   macro avg       0.85      0.85      0.85        61
-weighted avg       0.85      0.85      0.85        61
+    accuracy                           0.96     10000
+   macro avg       0.96      0.96      0.96     10000
+weighted avg       0.96      0.96      0.96     10000
 ```
 
-**Feature Importance Visualization**:
-Features like `thalach` (maximum heart rate achieved) and `cp` (chest pain type) are the most important predictors.
+### **Visualization of Misclassified Digits**
+- Images of misclassified digits are displayed with their **predicted** and **actual labels**, providing insight into areas for model improvement.
 
 ---
 
 ## **Key Insights**
-1. **Accuracy**: The Random Forest Classifier achieved an accuracy of **85%** on the test dataset.
-2. **Feature Importance**:
-   - `thalach` (maximum heart rate) and `cp` (chest pain type) play significant roles in heart disease prediction.
-3. **Interpretability**: Random Forest provides a robust and interpretable method for understanding which features contribute most to predictions.
+1. **High Accuracy**: The Random Forest model achieves an impressive accuracy of **96%** on the test dataset.
+2. **Misclassified Digits**: Some digits are misclassified, often due to visual similarity (e.g., 4 and 9).
+3. **Feature Importance**: Random Forest can analyze pixel-level importance for predictions, although this is less interpretable for image data.
 
 ---
 
 ## **Next Steps**
 1. **Hyperparameter Tuning**:
-   - Use `GridSearchCV` to optimize parameters such as `n_estimators` and `max_depth`.
-2. **Handling Imbalanced Data**:
-   - Use SMOTE or class weights to handle any imbalance in the dataset.
-3. **Model Comparison**:
-   - Compare Random Forest with other models like **Logistic Regression**, **SVM**, or **Gradient Boosting**.
-4. **Feature Engineering**:
-   - Derive new features to improve predictive performance.
+   - Use `GridSearchCV` to optimize hyperparameters like `n_estimators`, `max_depth`, and `min_samples_split`.
+2. **Dimensionality Reduction**:
+   - Apply **PCA (Principal Component Analysis)** to reduce the number of features and improve training speed.
+3. **Ensemble Learning**:
+   - Combine Random Forest with other models like SVM or Gradient Boosting for further performance gains.
+4. **Deep Learning**:
+   - Use **Convolutional Neural Networks (CNNs)** for more advanced and accurate image classification.
 
 ---
 
 ## **Conclusion**
-The Random Forest Classifier effectively predicts heart disease based on medical attributes. With robust evaluation metrics and interpretable feature importance, the model demonstrates strong performance and provides valuable insights into key predictors of heart disease.
+This project demonstrates the effectiveness of **Random Forest** for classifying handwritten digits using the **MNIST Dataset**. The model achieves high accuracy and provides interpretable results through metrics and visualizations. By exploring hyperparameter tuning and advanced techniques, the performance can be further enhanced.
 
 ---
 
