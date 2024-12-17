@@ -55,27 +55,35 @@ The process of splitting continues recursively until a stopping condition is rea
 
 #### **1. Gini Impurity (for Classification)**
 Gini Impurity measures how often a randomly chosen element would be incorrectly classified:
-\[
-Gini = 1 - \sum_{i=1}^{n} p_i^2
-\]
-Where \( p_i \) is the proportion of samples belonging to class \( i \).
+
+    Gini = 1 - ∑ (pᵢ²)
+
+Where:
+- \( pᵢ \) is the proportion of samples belonging to class \( i \).
 
 #### **2. Entropy (Information Gain)**
 Entropy measures the amount of uncertainty in a dataset. It is used to calculate Information Gain:
-\[
-Entropy = - \sum_{i=1}^{n} p_i \log_2(p_i)
-\]
+
+    Entropy = -∑ (pᵢ ⋅ log₂(pᵢ))
+
 Information Gain is the reduction in entropy after splitting:
-\[
-Information\ Gain = Entropy_{parent} - \sum_{k} \frac{n_k}{n_{total}} \times Entropy_{child}
-\]
+
+    Information Gain = Entropy(parent) - ∑ (nᵢ / nₜ₟ₚₜ) ⋅ Entropy(child)
+
+Where:
+- \( pᵢ \): Proportion of samples in class \( i \).
+- \( nᵢ \): Number of samples in child node \( i \).
+- \( nₜ₟ₚₜ \): Total number of samples.
 
 #### **3. Mean Squared Error (for Regression)**
 For regression tasks, splits are chosen to minimize the Mean Squared Error (MSE):
-\[
-MSE = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y})^2
-\]
-Where \( y_i \) is the actual value and \( \hat{y} \) is the predicted value.
+
+    MSE = (1/n) ⋅ ∑ (yᵢ - ŷ)²
+
+Where:
+- \( yᵢ \): Actual value.
+- \( ŷ \): Predicted value.
+- \( n \): Number of samples.
 
 ---
 
@@ -131,5 +139,3 @@ Where \( y_i \) is the actual value and \( \hat{y} \) is the predicted value.
 Decision Trees are a versatile and interpretable machine learning algorithm that can solve both classification and regression problems. Their ability to handle mixed data types, combined with methods to reduce overfitting, makes them a popular choice for many real-world applications. When combined with ensemble methods like Random Forests, Decision Trees become even more powerful and robust.
 
 ---
-
-
