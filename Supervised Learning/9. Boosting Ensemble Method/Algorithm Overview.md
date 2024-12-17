@@ -40,10 +40,11 @@ Boosting algorithms minimize a loss function by sequentially updating weights of
    \alpha_m = \frac{1}{2} \log\left(\frac{1 - e_m}{e_m}\right)
    \]
    where \( e_m \) is the weighted error.
+
 4. Update the weights of the training samples:
    
    \[
-   w_{i}^{(m+1)} = w_{i}^{(m)} \times \exp(-\alpha_m y_i f_m(x_i))
+   w_{i}^{(m+1)} = w_{i}^{(m)} \cdot \exp(-\alpha_m y_i f_m(x_i))
    \]
    where \( y_i \) is the actual label, and \( f_m(x_i) \) is the weak learner's prediction.
 
@@ -123,5 +124,4 @@ F(x) = \sum_{m=1}^M \alpha_m f_m(x)
 Boosting is a powerful and flexible ensemble technique that improves the performance of weak learners by combining them into a strong model. With algorithms like AdaBoost, Gradient Boosting, XGBoost, and LightGBM, boosting has become an essential tool for solving complex machine learning problems.
 
 ---
-
 
