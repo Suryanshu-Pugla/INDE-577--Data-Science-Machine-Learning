@@ -40,10 +40,12 @@ Regression Trees are particularly useful when the target variable is continuous 
 2. **Error Minimization**:
    - The algorithm uses **Mean Squared Error (MSE)** or similar metrics to determine the optimal split:
      
-     **MSE**:
-     \[
-     MSE = \frac{1}{n} \sum_{i=1}^n (y_i - \bar{y})^2
-     \]
+     **Mean Squared Error (MSE):**
+     
+     $$
+     \text{MSE} = \frac{1}{n} \sum_{i=1}^n (y_i - \bar{y})^2
+     $$
+     
      Where:
      - \( y_i \) is the actual target value.
      - \( \bar{y} \) is the mean of the target values in the node.
@@ -134,5 +136,5 @@ Regression Trees are powerful tools for predicting continuous target values and 
 
 ---
 
-
+Would you like me to demonstrate an implementation of **Regression Trees** using Python and a real-world dataset? 😊
 
