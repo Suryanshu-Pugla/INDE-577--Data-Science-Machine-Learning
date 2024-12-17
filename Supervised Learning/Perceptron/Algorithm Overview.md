@@ -1,6 +1,6 @@
 ### **Overview of the Perceptron Algorithm**
 
-![Support Vector Machine intro (1)](https://github.com/user-attachments/assets/e920a5f3-3d23-48b5-b362-a9a431b7ef1b)
+<img src="https://github.com/user-attachments/assets/e920a5f3-3d23-48b5-b362-a9a431b7ef1b" alt="resized image" width="70%"> 
 
 ### **What is the Perceptron Algorithm?**
 The Perceptron is one of the earliest and simplest **supervised learning algorithms** used for **binary classification** tasks. It was introduced by **Frank Rosenblatt** in 1958 and serves as the foundation for neural networks and deep learning. The algorithm works by finding a **linear decision boundary** that separates two classes.
@@ -48,7 +48,7 @@ Where:
 - **η (eta)**: Learning rate (controls the size of weight updates).
 - **xₚ**: Input feature value.
 
-![0_ZoXnUr87zpRe-CN4](https://github.com/user-attachments/assets/9cb0ad7a-0d90-4ba0-b9c8-b0979df2f1b2)
+<img src="https://github.com/user-attachments/assets/9cb0ad7a-0d90-4ba0-b9c8-b0979df2f1b2)" alt="resized image" width="80%">
 
 ### **How the Perceptron Algorithm Works**
 1. **Initialize Weights**:
@@ -90,7 +90,7 @@ Where:
 3. **Decision-Making**:
    - Situations requiring simple, interpretable decision boundaries.
 
-![1_hkYlTODpjJgo32DoCOWN5w](https://github.com/user-attachments/assets/37d973b6-e41e-4427-8114-2200eebbaede)
+<img src="https://github.com/user-attachments/assets/37d973b6-e41e-4427-8114-2200eebbaede)" alt="resized image" width="90%">
 
 
 ### **Conclusion**
