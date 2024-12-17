@@ -1,6 +1,6 @@
 ### **Overview of Neural Networks**
 
-![images](https://github.com/user-attachments/assets/5e113dcd-ccd9-4837-be5b-4ab2dee49129)
+![vd78l0x8 deviator-2_(1)](https://github.com/user-attachments/assets/19df5cb2-48ae-460c-8771-f994a5282487)
 
 ### **What are Neural Networks?**
 Neural Networks (NN) are a class of **supervised learning algorithms** inspired by the structure and function of the human brain. They consist of interconnected layers of nodes (neurons) that are designed to recognize patterns, model complex relationships, and make predictions. Neural networks are widely used in modern machine learning and form the foundation of **deep learning**.
@@ -32,7 +32,7 @@ Neural networks are composed of multiple layers of interconnected nodes:
    - For classification: Outputs probabilities or class labels.
    - For regression: Outputs continuous values.
 
-![1_3fA77_mLNiJTSgZFhYnU0Q](https://github.com/user-attachments/assets/e2e2e734-24f3-4738-a503-5e0d446317d2)
+<img src="https://github.com/user-attachments/assets/e2e2e734-24f3-4738-a503-5e0d446317d2" alt="resized" width="50%">
 
 #### **A Single Neuron**
 A single neuron performs the following operations:
@@ -94,7 +94,7 @@ Neural networks learn through an **iterative optimization process**:
 4. **Optimization**:
    - Optimizers like **Stochastic Gradient Descent (SGD)** or **Adam** adjust the weights to minimize the loss function.
 
-![ICLH_Diagram_Batch_01_04-GradientDescent](https://github.com/user-attachments/assets/e1fb86b5-bde9-46f3-99ef-81d51a238ee6)
+<img src="https://github.com/user-attachments/assets/e1fb86b5-bde9-46f3-99ef-81d51a238ee6" alt="resized" width="75%">
 
 ---
 
