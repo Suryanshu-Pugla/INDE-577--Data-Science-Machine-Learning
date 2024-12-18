@@ -91,16 +91,9 @@ For clustering, we use **Annual Income** and **Spending Score** as the features.
    Load the dataset in the working directory of the colab everytime before executing the code.
     If you want to access the code from the source then you need to change   the code for loading the data set.
    ```
-
 2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
-3. Run the Jupyter Notebook:
-   ```bash
-   jupyter notebook mall_customer_segmentation.ipynb
-   ```
+3. Run the Google Colab Notebook: 
 
 ---
 
