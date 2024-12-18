@@ -121,7 +121,9 @@ Execute the script to preprocess the data, train the model, and visualize result
 ```bash
 python knn_wine_dataset.py
 ```
-
+#### **3. Dataset**
+Ensure the Wholesale Customers Dataset is in the working directory or update the file path in the script.
+ 
 ---
 
 ### **Next Steps**
