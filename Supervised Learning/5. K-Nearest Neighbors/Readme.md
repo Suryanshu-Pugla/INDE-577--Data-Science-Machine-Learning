@@ -28,7 +28,7 @@ KNN is a distance-based supervised machine learning algorithm that classifies da
   11. **Hue**
   12. **OD280/OD315 of diluted wines**
   13. **Proline**
-- **Target Variable**: Wine class (1, 2, or 3).
+- **Target Variable**: Wine class (0, 1, or 2).
 
 ---
 
@@ -58,24 +58,24 @@ KNN is a distance-based supervised machine learning algorithm that classifies da
 ### **Results**
 
 #### **Key Metrics**
-- **Accuracy**: 97% on the test dataset.
+- **Accuracy**: 94% on the test dataset.
 - **Confusion Matrix**:
-  | Actual \ Predicted | Class 1 | Class 2 | Class 3 |
+  | Actual \ Predicted | Class 0 | Class 1 | Class 2 |
   |--------------------|---------|---------|---------|
-  | **Class 1**       | 12      | 0       | 0       |
-  | **Class 2**       | 1       | 14      | 0       |
-  | **Class 3**       | 0       | 0       | 9       |
+  | **Class 0**       | 14      | 0       | 0       |
+  | **Class 1**       | 1       | 12      | 1       |
+  | **Class 2**       | 0       | 0       | 9       |
 
 - **Classification Report**:
   ```
               precision    recall  f1-score   support
 
-           1       0.92      1.00      0.96        12
-           2       1.00      0.93      0.97        15
-           3       1.00      1.00      1.00         9
+           0       0.93      1.00      0.97        14
+           1       1.00      0.86      0.92        14
+           2       0.89      1.00      0.94         8
 
-    accuracy                           0.97        36
-   macro avg       0.97      0.98      0.97        36
+    accuracy                           0.94        36
+   macro avg       0.95      0.94      0.94        36
   ```
 
 ---
@@ -107,8 +107,7 @@ KNN is a distance-based supervised machine learning algorithm that classifies da
 
 #### **1. Clone the Repository**
 ```bash
-git clone <repository_link>
-cd knn-wine-dataset
+Load the dataset in the working directory of the colab everytime before executing the code. If you want to access the code from the source then you need to change the code for loading the data set.
 ```
 
 #### **2. Install Dependencies**
