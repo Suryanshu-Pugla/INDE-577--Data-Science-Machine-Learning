@@ -6,7 +6,7 @@
 
 **GitHub Repository for Machine Learning Models**
 
-This Github Repository includes all files and code for the project of course INDE577.This repository will showcase implementations and discussions of various machine learning models categorized under supervised and unsupervised learning. Each model will include a detailed explanation, code implementation, and analysis of results to help users understand the core concepts and applications.
+This Github Repository includes all files and code for the project of Course INDE577. This repository will showcase implementations and discussions of various machine learning models categorized under supervised and unsupervised learning. Each model will include a detailed explanation, code implementation, and analysis of results to help users understand the core concepts and applications.
 
 <img src="https://github.com/user-attachments/assets/bd1fad35-f757-4896-8252-ff38a2c98247" alt="Resized Image" width="75%">
 
