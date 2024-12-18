@@ -114,6 +114,7 @@ python perceptron_social_network_ads.py
 ```
 #### **3. Dataset**
 Ensure the Wholesale Customers Dataset is in the working directory or update the file path in the script.
+
 ---
 
 ### **Next Steps**
