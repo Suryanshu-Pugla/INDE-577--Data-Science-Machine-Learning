@@ -1,5 +1,7 @@
 # **Decision Tree Classifier from Scratch Using Breast Cancer Dataset**
 
+![1_qT41zaPnyJHQeGKz0FvkQA](https://github.com/user-attachments/assets/3a67a484-663c-4c46-828b-20c7770c278d)
+
 ## **Project Overview**
 This project demonstrates the implementation of a **Decision Tree Classifier** from scratch in Python to classify whether a breast tumor is malignant or benign. The model is evaluated on the **Breast Cancer Dataset** from the scikit-learn library.
 
