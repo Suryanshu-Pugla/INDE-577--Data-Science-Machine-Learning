@@ -1,98 +1,53 @@
 # **DBSCAN Clustering from Scratch**
 
-This project demonstrates the implementation of the **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** algorithm from scratch using Python. The goal is to cluster data points based on density while identifying noise points.
+This project demonstrates the implementation of the **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** algorithm from scratch in Python. The algorithm is applied to the **make_moons dataset**, a synthetic dataset widely used for testing clustering methods.
 
 ---
 
-## **Project Overview**
+## **Overview**
 
-DBSCAN is a density-based clustering algorithm that groups data points based on their proximity and density. Unlike K-Means, DBSCAN does not require the number of clusters to be specified in advance and can identify **outliers (noise)** naturally.
+DBSCAN is a density-based clustering algorithm that:
+- Groups points into clusters based on density.
+- Automatically detects and labels outliers (noise points).
+- Does not require the number of clusters (`k`) to be predefined.
 
-### **Key Features of DBSCAN**:
-1. **Core Points**: Points with at least `min_samples` neighbors within a distance `eps`.
-2. **Border Points**: Points within `eps` distance of a core point but with fewer than `min_samples` neighbors.
-3. **Noise Points**: Points that do not belong to any cluster.
+### **Key Concepts**:
+1. **Core Points**:
+   - Points with at least `min_samples` neighbors within a distance `eps`.
+2. **Border Points**:
+   - Points within the `eps` radius of a core point but do not have enough neighbors to qualify as core points themselves.
+3. **Noise Points**:
+   - Points that do not belong to any cluster are identified as noise.
+
+---
+
+## **Algorithm Steps**
+
+1. **Neighborhood Query**:
+   - For a given point, find all points within the `eps` radius.
+
+2. **Cluster Expansion**:
+   - Start from a core point and iteratively expand the cluster by adding all reachable core points and border points.
+
+3. **Noise Detection**:
+   - Points not reachable from any cluster are labeled as noise (`-1`).
+
+4. **Cluster Assignment**:
+   - Assign unique cluster IDs to connected core points and their associated border points.
 
 ---
 
 ## **Dataset**
 
-### **Mall Customer Segmentation Dataset**
-The dataset contains customer information:
-- **Annual Income (k$)**: Annual income of the customer in thousands of dollars.
-- **Spending Score (1-100)**: A score assigned to the customer based on their spending habits.
+### **make_moons Dataset**
+The **make_moons dataset** is a synthetic dataset that generates two interleaving half-circle clusters, making it ideal for testing clustering algorithms.
 
-### **Features Used**:
-- **Annual Income (k$)**
-- **Spending Score (1-100)**
+### **Dataset Features**:
+- **Feature 1**: X-coordinate of the point.
+- **Feature 2**: Y-coordinate of the point.
 
-### **Source**:
-- [Mall Customers Dataset on Kaggle](https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python)
-
----
-
-## **Steps in the Project**
-
-### **1. Data Preprocessing**
-- **Selected Features**: Chose **Annual Income (k$)** and **Spending Score (1-100)** as features for clustering.
-- **Standardization**: Scaled the features using **StandardScaler** to ensure equal treatment of all dimensions.
-
-### **2. DBSCAN Clustering**
-- **Implemented DBSCAN from scratch**:
-  - Identified core points, border points, and noise points.
-  - Used parameters:
-    - `eps=0.5`: Maximum radius for neighborhood points.
-    - `min_samples=5`: Minimum points required to form a dense region.
-- Cluster labels were assigned to each data point, with noise points labeled as `-1`.
-
-### **3. Visualization**
-- Plotted the clusters with noise points clearly marked.
-- Used different colors to represent different clusters and noise points.
-
-### **4. Results Analysis**
-- Counted the number of clusters formed and identified noise points.
-
----
-
-## **Results**
-
-1. **Clusters Identified**:
-   - DBSCAN automatically determined the number of clusters based on density.
-
-2. **Noise Points**:
-   - Noise points that do not belong to any cluster were identified and labeled as `-1`.
-
-3. **Visualization**:
-   - Clusters were displayed in different colors.
-   - Noise points were marked distinctly.
-
----
-
-## **Visualizations**
-
-1. **DBSCAN Clustering Plot**  
-   ![Clustering Plot](image_path.png)  
-   *Clusters based on Annual Income and Spending Score.*
-
----
-
-## **Key Insights**
-
-1. **Automatic Cluster Detection**:
-   - DBSCAN identifies clusters without requiring the number of clusters to be predefined.
-
-2. **Outlier Detection**:
-   - Noise points that do not belong to any dense region were successfully detected.
-
-3. **Impact of Parameters**:
-   - Tuning `eps` and `min_samples` significantly influenced the clustering results and the number of noise points.
-
----
-
-## **How to Run**
-
-1. **Setup Environment**:
-   Install the required libraries:
-   ```bash
-   pip install pandas numpy matplotlib scikit-learn
-
+### **Dataset Generation**:
+The dataset is created using the `make_moons` function from Scikit-learn:
+```python
+from sklearn.datasets import make_moons
+X, y = make_moons(n_samples=300, noise=0.05, random_state=42)
