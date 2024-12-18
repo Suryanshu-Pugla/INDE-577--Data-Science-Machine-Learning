@@ -116,7 +116,9 @@ Execute the script to preprocess the data, train the model, and evaluate results
 ```bash
 python neural_network_social_ads.py
 ```
-
+#### **4. Dataset**
+Ensure the Wholesale Customers Dataset is in the working directory or update the file path in the script.
+ 
 ---
 
 ### **Next Steps**
