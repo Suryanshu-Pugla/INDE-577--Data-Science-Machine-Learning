@@ -121,6 +121,8 @@ The models were evaluated on the **test set** using the following metrics:
 3. **Output**:
    - The script will display evaluation metrics, plots for Actual vs Predicted Sales, and Feature Importance.
 
+4. **Dataset**:
+   - Ensure the Wholesale Customers Dataset is in the working directory or update the file path in the script.
 ---
 
 ## **Next Steps**
