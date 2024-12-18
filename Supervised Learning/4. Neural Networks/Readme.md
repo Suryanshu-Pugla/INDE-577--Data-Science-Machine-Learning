@@ -75,7 +75,6 @@ The project involves data preprocessing, building a neural network, training the
 
     accuracy                           0.93        80
    macro avg       0.91      0.93      0.92        80
-weighted avg       0.93      0.93      0.93        80
 
   ```
 
