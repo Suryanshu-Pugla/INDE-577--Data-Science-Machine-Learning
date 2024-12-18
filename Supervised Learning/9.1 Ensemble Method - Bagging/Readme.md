@@ -1,6 +1,6 @@
 # **Bagging Classifier on Census Income Dataset**
 
-<img src="https://github.com/user-attachments/assets/836daeb9-f2c5-443b-ad31-838c1bfdb478)" width="60%">
+<img src="https://github.com/user-attachments/assets/836daeb9-f2c5-443b-ad31-838c1bfdb478" width="60%">
 
 ## **Project Overview**
 This project implements the **Bagging Ensemble Method** using a **Bagging Classifier** with a base model of **Decision Trees** to predict whether an individual's annual income exceeds $50K. The dataset used is the **Census Income Dataset (Adult Dataset)**, which contains demographic and employment-related attributes.
