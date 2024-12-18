@@ -71,29 +71,29 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 ## **Results**
 
 ### **Model Accuracy**
-- The Random Forest model achieves an accuracy of **96%** on the test dataset.
+- The Random Forest model achieves an accuracy of **97%** on the test dataset.
 
 ### **Confusion Matrix**
 - A heatmap is generated to display the confusion matrix, showing predictions vs. actual labels.
 
 ### **Classification Report**
 ```
-              precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
-           0       0.99      0.99      0.99       980
-           1       0.98      0.99      0.99      1135
-           2       0.96      0.96      0.96      1032
-           3       0.95      0.95      0.95      1010
-           4       0.96      0.97      0.96       982
-           5       0.95      0.94      0.94       892
-           6       0.97      0.98      0.97       958
-           7       0.96      0.96      0.96      1028
-           8       0.94      0.94      0.94       974
-           9       0.95      0.94      0.95      1009
+           0       0.98      0.99      0.98      1343
+           1       0.98      0.98      0.98      1600
+           2       0.95      0.97      0.96      1380
+           3       0.96      0.95      0.95      1433
+           4       0.96      0.96      0.96      1295
+           5       0.97      0.96      0.96      1273
+           6       0.98      0.98      0.98      1396
+           7       0.97      0.96      0.97      1503
+           8       0.95      0.95      0.95      1357
+           9       0.94      0.95      0.95      1420
 
-    accuracy                           0.96     10000
-   macro avg       0.96      0.96      0.96     10000
-weighted avg       0.96      0.96      0.96     10000
+    accuracy                           0.97     14000
+   macro avg       0.97      0.96      0.96     14000
+weighted avg       0.97      0.97      0.97     14000
 ```
 
 ### **Visualization of Misclassified Digits**
