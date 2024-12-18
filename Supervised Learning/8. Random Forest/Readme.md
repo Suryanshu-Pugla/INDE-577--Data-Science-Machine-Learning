@@ -1,6 +1,7 @@
 # **Random Forest Classifier on MNIST Handwritten Digits Dataset**
 
-![maxresdefault](https://github.com/user-attachments/assets/c65d61ec-1faa-4f44-b7ca-5f6396bdc514)
+![1_LK591u-DBVR5ydeH5nsJbQ](https://github.com/user-attachments/assets/40ca8382-9e80-4819-ab62-9aa0bc925651)
+
 
 ## **Project Overview**
 This project demonstrates the application of a **Random Forest Classifier** to the **MNIST Handwritten Digits Dataset**. The goal is to classify handwritten digits (0-9) based on pixel intensity values of 28x28 grayscale images. The project showcases data preprocessing, model training, evaluation, and visualization of results, including misclassified digits.
