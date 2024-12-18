@@ -1,6 +1,4 @@
-# **Walmart Retail Store Sales Forecasting**
-
-<img src="https://github.com/user-attachments/assets/e6e11f4c-3282-4b41-a8d7-c474fb1ade25" width="50%">
+# **Walmart Retail Store Sales Forecasting**  <img src="https://github.com/user-attachments/assets/e6e11f4c-3282-4b41-a8d7-c474fb1ade25" width="20%">
 
 <img src="https://github.com/user-attachments/assets/cafa6f3c-87cb-4a14-ae5e-ba8ebfa6afa2" width="50%">   
 
