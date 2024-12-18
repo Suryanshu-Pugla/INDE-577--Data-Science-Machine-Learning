@@ -1,6 +1,6 @@
 ### **README: Principal Component Analysis (PCA)**
 
-![principal-component-analysis-pca-featured](https://github.com/user-attachments/assets/dccf8e7f-1720-42d8-be77-d3bdc264e687)
+<img src="https://github.com/user-attachments/assets/dccf8e7f-1720-42d8-be77-d3bdc264e687" width="70%">
 
 ### **What is PCA?**
 
