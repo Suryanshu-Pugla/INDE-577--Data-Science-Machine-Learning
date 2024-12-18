@@ -48,11 +48,10 @@ This project demonstrates the use of **linear regression** to predict sales base
 ### **Results**
 
 #### **Key Metrics**
-- **Mean Squared Error (MSE)**: 4.08
-- **Mean Absolute Error (MAE)**: 1.56
-- **R-squared Score (R²)**: 0.99
+- **Mean Squared Error (MSE)**: 3.17
+- **R-squared Score (R²)**: 0.90
 
-The high R² value indicates that the model explains 99% of the variance in sales, demonstrating an excellent fit to the data.
+The high R² value indicates that the model explains 90% of the variance in sales, demonstrating an excellent fit to the data.
 
 ---
 
