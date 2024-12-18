@@ -112,7 +112,7 @@ Execute the script to preprocess the data, train the model, and visualize result
 ```bash
 python perceptron_social_network_ads.py
 ```
-
+4. Dataset:  Ensure the Wholesale Customers Dataset is in the working directory or update the file path in the script.
 ---
 
 ### **Next Steps**
