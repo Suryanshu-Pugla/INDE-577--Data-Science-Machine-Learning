@@ -60,6 +60,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 1. Copy the project code into a Python file or Jupyter Notebook.
 2. Install the required dependencies using the command above.
 3. Run the script.
+4. Ensure the Wholesale Customers Dataset is in the working directory or update the file path in the script.
 
 **Output**:
 - Model accuracy and evaluation metrics.
