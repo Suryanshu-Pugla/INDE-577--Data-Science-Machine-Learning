@@ -86,7 +86,7 @@ The high R² value indicates that the model explains 90% of the variance in sale
 
 #### **1. LOad the dataset**
 ```bash
-Load the data set in the working directory of the colab before executing the code.
+Load the dataset in the working directory of the colab everytime before executing the code. If you want to access the code from the source then you need to change the code for loading the data set.
 ```
 
 #### **2. Install Dependencies**
