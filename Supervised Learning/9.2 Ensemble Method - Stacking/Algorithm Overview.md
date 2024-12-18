@@ -27,7 +27,8 @@ Stacking operates in the following steps:
 4. **Make Final Predictions**:
    - Use the meta-model to combine predictions from the base learners and produce the final output.
 
----
+![1_T-JHq4AK3dyRNi7gpn9-Xw](https://github.com/user-attachments/assets/7bd22154-897f-43d3-97c5-b4bf84c434fb)
+
 
 ### **Advantages of Stacking**
 1. **Combines Strengths of Multiple Models**:
