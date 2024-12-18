@@ -1,4 +1,6 @@
-# **Stacking Ensemble Method on Online Shoppers Purchasing Intention Dataset**
+# **Stacking Ensemble Method for Online Shoppers Purchasing Intention Dataset**
+
+![images](https://github.com/user-attachments/assets/0d32619a-02ab-46db-a9ff-05f0803fbc06)
 
 ## **Project Overview**
 This project applies the **Stacking Ensemble Method** to predict whether an online shopper will make a purchase or not based on behavioral features. The dataset, **Online Shoppers Purchasing Intention**, contains session-based features such as browsing behavior, page visit durations, and session types.
