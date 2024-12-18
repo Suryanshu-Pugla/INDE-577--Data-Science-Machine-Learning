@@ -85,25 +85,24 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 ## **Results**
 
 ### **Model Accuracy**
-The Stacking Ensemble Classifier achieves an accuracy of **~89%** on the test dataset.
+The Stacking Ensemble Classifier achieves an accuracy of **~88%** on the test dataset.
 
 ### **Confusion Matrix**
 ```
 Confusion Matrix:
-[[1926   74]
- [ 219  381]]
+ [[2002   53]
+ [ 238  173]]
 ```
 
 ### **Classification Report**
 ```
-              precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
-           0       0.90      0.96      0.93      2000
-           1       0.84      0.64      0.73       600
+           0       0.89      0.97      0.93      2055
+           1       0.77      0.42      0.54       411
 
-    accuracy                           0.89      2600
-   macro avg       0.87      0.80      0.83      2600
-weighted avg       0.88      0.89      0.88      2600
+    accuracy                           0.88      2466
+   macro avg       0.83      0.70      0.74      2466
 ```
 
 ### **Visualizations**
