@@ -63,18 +63,20 @@ The project involves data preprocessing, building a neural network, training the
 - **Confusion Matrix**:
   | Actual \ Predicted | 0   | 1   |
   |--------------------|-----|-----|
-  | **0**             | 49  | 3   |
-  | **1**             | 5   | 23  |
+  | **0**             | 47  | 5   |
+  | **1**             | 1   | 27  |
 
 - **Classification Report**:
   ```
-              precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
-           0       0.91      0.94      0.92        52
-           1       0.88      0.82      0.85        28
+           0       0.98      0.90      0.94        52
+           1       0.84      0.96      0.90        28
 
-    accuracy                           0.90        80
-   macro avg       0.89      0.88      0.89        80
+    accuracy                           0.93        80
+   macro avg       0.91      0.93      0.92        80
+weighted avg       0.93      0.93      0.93        80
+
   ```
 
 #### **Training and Validation Loss**
