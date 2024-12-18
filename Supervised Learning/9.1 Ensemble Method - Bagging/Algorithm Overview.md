@@ -24,7 +24,7 @@ Bagging operates in the following steps:
      
    - **For Regression**: Use the average of predictions from all base models.
 
----
+![42deeaf4-d127-4c9e-92b2-fa22916e73fb_2200x947](https://github.com/user-attachments/assets/d3fa667b-37ef-479d-8c75-15bc7f4c5fd7)
 
 ### **Key Characteristics**
 - **Random Sampling**: Creates diversity in the training process by using different subsets of data.
