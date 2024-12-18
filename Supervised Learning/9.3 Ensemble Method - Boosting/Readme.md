@@ -1,5 +1,7 @@
 # **Walmart Retail Store Sales Forecasting**
 
+![sales-forecasting-metrics-1024x768](https://github.com/user-attachments/assets/cafa6f3c-87cb-4a14-ae5e-ba8ebfa6afa2)
+
 This project aims to predict **weekly sales** for Walmart retail stores using machine learning regression techniques, specifically **Boosting Ensemble Methods** such as **Gradient Boosting** and **XGBoost**.
 
 ---
