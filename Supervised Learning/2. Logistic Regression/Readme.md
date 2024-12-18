@@ -105,6 +105,20 @@ This project demonstrates the application of **logistic regression** to classify
 
 ---
 
+### **How to Run the Project**
+
+#### **1. Load the dataset**
+```bash
+Load the dataset in the working directory of the colab everytime before executing the code. If you want to access the code from the source then you need to change the code for loading the data set.
+```
+
+#### **2. Install Dependencies**
+Ensure Python is installed along with the required libraries:
+```bash
+pip install numpy pandas matplotlib scikit-learn
+```
+---
+
 ### **Next Steps**
 
 1. **Handle Imbalanced Data**:
