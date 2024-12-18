@@ -1,6 +1,6 @@
 ### **Project: Mall Customer Segmentation Using DBSCAN**
 
----
+<img src="https://github.com/user-attachments/assets/7790bc21-b87a-4abb-b96c-683a7d71567e" width="50%">
 
 #### **Introduction**
 This project applies the **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)** algorithm to cluster customers in a shopping mall based on their annual income and spending scores. DBSCAN is a powerful clustering algorithm capable of identifying clusters of arbitrary shapes and detecting outliers, making it an excellent choice for this segmentation task.
