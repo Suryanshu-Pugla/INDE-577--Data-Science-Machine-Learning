@@ -101,8 +101,7 @@ The project involves data preprocessing, building a neural network, training the
 
 #### **1. Clone the Repository**
 ```bash
-git clone <repository_link>
-cd neural-network-social-network-ads
+Load the dataset in the working directory of the colab everytime before executing the code. If you want to access the code from the source then you need to change the code for loading the data set.
 ```
 
 #### **2. Install Dependencies**
