@@ -79,13 +79,13 @@ This project demonstrates the application of **logistic regression** to classify
   - **False Negatives (FN)**: 18
 - **Classification Report**:
   ```
-              precision    recall  f1-score   support
+                precision    recall  f1-score   support
 
-           0       0.79      0.85      0.81        99
-           1       0.67      0.57      0.62        55
+           0       0.81      0.80      0.81        99
+           1       0.65      0.67      0.66        55
 
     accuracy                           0.75       154
-   macro avg       0.73      0.71      0.72       154
+   macro avg       0.73      0.74      0.73       154
 
   ```
 
