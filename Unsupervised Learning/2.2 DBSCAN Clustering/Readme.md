@@ -57,7 +57,7 @@ For clustering, we use **Annual Income** and **Spending Score** as the features.
    - Noise points (`-1`) represented outliers or customers that did not fit into any cluster.
 
 2. **Silhouette Score**:
-   - The clustering achieved a **Silhouette Score of 0.52**, indicating moderate separation between clusters.
+   - The clustering achieved a **Silhouette Score of 0.56**, indicating moderate separation between clusters.
 
 3. **Visualization**:
    - Plotted clusters with distinct colors and noise points separately.
