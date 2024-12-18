@@ -1,6 +1,6 @@
 ### **Overview of Decision Trees**
 
----
+![650d92774d0bccb1e062a7f1_n2yd4acs30](https://github.com/user-attachments/assets/0bd3d714-5ee6-4883-bcc3-4b7aaac01d7f)
 
 ### **What are Decision Trees?**
 Decision Trees are a **supervised learning algorithm** used for both **classification** and **regression** tasks. They model decisions as a tree-like structure, where each internal node represents a decision on a feature, branches represent the outcomes of decisions, and leaf nodes represent the final prediction (class or value).
@@ -30,7 +30,8 @@ Decision Trees are a **supervised learning algorithm** used for both **classific
 4. **Leaf Nodes**:
    - Represent the final predictions (class labels for classification or values for regression).
 
----
+![0_fN_oh7NDPd3Y_qZr](https://github.com/user-attachments/assets/e080ae46-3f2a-4105-b227-eae6e729b0f1)
+
 
 ### **How Decision Trees Work**
 
