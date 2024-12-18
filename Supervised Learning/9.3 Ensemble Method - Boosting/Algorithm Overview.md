@@ -26,7 +26,7 @@ Boosting works in the following steps:
 4. **Iterate**:
    - Repeat the process for a specified number of iterations or until errors are minimized.
 
-![1_4XuD6oRrgVqtaSwH-cu6SA](https://github.com/user-attachments/assets/69cf48ff-d102-43e8-bf80-ef20c15c59f3)
+<img src="https://github.com/user-attachments/assets/69cf48ff-d102-43e8-bf80-ef20c15c59f3" width="85%">
 
 
 ### **Popular Boosting Algorithms**
