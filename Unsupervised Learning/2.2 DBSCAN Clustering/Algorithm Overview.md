@@ -17,7 +17,8 @@ DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a cluste
 3. **Noise Points**:
    - Points that do not belong to any cluster are identified as **noise**.
 
----
+![1_arv3b3Um_Opu_zOECGwt6w](https://github.com/user-attachments/assets/170cf31b-2a66-41ce-a6a4-de836dcd9a86)
+
 
 ## **Mathematical Representation**
 
