@@ -86,7 +86,7 @@ For clustering, we use **Annual Income** and **Spending Score** as the features.
 
 ### **How to Reproduce This Project**
 
-1. Clone the repository:
+1. Load the dataset:
    ```bash
    Load the dataset in the working directory of the colab everytime before executing the code.
     If you want to access the code from the source then you need to change   the code for loading the data set.
