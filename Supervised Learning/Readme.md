@@ -1,6 +1,6 @@
 ### **Supervised Machine Learning**
 
-<img src="https://github.com/user-attachments/assets/2f4b85a6-fea5-433a-84e9-801be0d31995" width="75%">
+<img src="https://github.com/user-attachments/assets/2f4b85a6-fea5-433a-84e9-801be0d31995" width="80%">
 
 
 ### **What is Supervised Learning?**
