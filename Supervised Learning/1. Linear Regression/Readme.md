@@ -84,10 +84,9 @@ The high R² value indicates that the model explains 90% of the variance in sale
 
 ### **How to Run the Project**
 
-#### **1. Clone the Repository**
+#### **1. LOad the dataset**
 ```bash
-git clone <repository_link>
-cd linear-regression-advertising
+Load the data set in the working directory of the colab before executing the code.
 ```
 
 #### **2. Install Dependencies**
