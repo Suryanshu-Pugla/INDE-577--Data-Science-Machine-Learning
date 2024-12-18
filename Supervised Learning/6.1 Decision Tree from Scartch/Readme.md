@@ -92,12 +92,12 @@ pip install numpy pandas scikit-learn
 
 ## **Results**
 The decision tree classifier achieved the following result:
-- **Accuracy**: ~92% on the Breast Cancer Dataset.
+- **Accuracy**: ~95% on the Breast Cancer Dataset.
 
 **Example Output**:
 ```
 Decision Tree Classifier Results on Breast Cancer Dataset:
-Accuracy: 0.92
+Accuracy: 0.95
 ```
 
 ---
