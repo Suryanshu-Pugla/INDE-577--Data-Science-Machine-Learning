@@ -92,20 +92,19 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 - The confusion matrix highlights the correct and incorrect predictions:
 
 ```
-[[4941  356]
- [ 722  985]]
+ [[4262  241]
+ [ 600  930]]
 ```
 
 ### **Classification Report**
 ```
-              precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
-          <=50K       0.87      0.93      0.90      5297
-           >50K       0.73      0.58      0.65      1707
+           0       0.88      0.95      0.91      4503
+           1       0.79      0.61      0.69      1530
 
-       accuracy                           0.86      7004
-      macro avg       0.80      0.76      0.77      7004
-   weighted avg       0.85      0.86      0.85      7004
+    accuracy                           0.86      6033
+   macro avg       0.84      0.78      0.80      6033
 ```
 
 ### **Feature Importance Visualization**
