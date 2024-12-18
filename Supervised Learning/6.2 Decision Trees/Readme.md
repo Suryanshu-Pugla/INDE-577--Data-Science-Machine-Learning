@@ -69,6 +69,7 @@ pip install pandas scikit-learn matplotlib
 1. Copy the project code into a Python file (e.g., `decision_tree_banknote.py`) or Jupyter Notebook.
 2. Install the required dependencies using the above command.
 3. Run the script.
+4. Ensure the Wholesale Customers Dataset is in the working directory or update the file path in the script.
 
 **Output**:
 - Model accuracy, confusion matrix, classification report, and decision tree visualization.
