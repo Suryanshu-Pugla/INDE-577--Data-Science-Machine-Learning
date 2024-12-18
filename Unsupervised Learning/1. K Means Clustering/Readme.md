@@ -88,8 +88,7 @@ For clustering, we use **Annual Income** and **Spending Score** as the features.
 
 1. Clone the repository:
    ```bash
-   git clone <repository_link>
-   cd mall-customer-segmentation-kmeans
+  Load the dataset in the working directory of the colab everytime before executing the code. If you want to access the code from the source then you need to change the code for loading the data set.
    ```
 
 2. Install the required dependencies:
