@@ -1,6 +1,6 @@
 ### **Supervised Machine Learning**
 
-<img src="https://github.com/user-attachments/assets/2f4b85a6-fea5-433a-84e9-801be0d31995" width="60%">
+<img src="https://github.com/user-attachments/assets/2f4b85a6-fea5-433a-84e9-801be0d31995" width="75%">
 
 
 ### **What is Supervised Learning?**
@@ -37,7 +37,7 @@ Supervised learning is a branch of machine learning where models are trained usi
   - **Support Vector Machines (SVM)**: Finds the optimal hyperplane to separate data points into classes.
   - **K-Nearest Neighbors (KNN)**: Classifies data points based on the majority class of their neighbors.
 
-<img src="https://github.com/user-attachments/assets/ca3b20a2-c87d-40b6-a8b0-c988d93bb099" width="60%">
+<img src="https://github.com/user-attachments/assets/ca3b20a2-c87d-40b6-a8b0-c988d93bb099" width="70%">
 
 
 ### **Key Applications**
