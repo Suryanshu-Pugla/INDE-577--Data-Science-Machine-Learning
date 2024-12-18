@@ -1,6 +1,7 @@
 ### **Overview of Random Forest**
 
----
+![random-forest](https://github.com/user-attachments/assets/4614a2c9-0419-4003-b3b0-e11394184f73)
+
 
 ### **What is Random Forest?**
 Random Forest is a powerful **ensemble learning algorithm** used for both **classification** and **regression** tasks. It builds multiple decision trees during training and combines their outputs to make a more accurate, robust, and generalizable prediction.
