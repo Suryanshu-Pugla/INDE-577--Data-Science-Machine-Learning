@@ -85,9 +85,9 @@ The models were evaluated on the **test set** using the following metrics:
 
 | **Metric**            | **Gradient Boosting** | **XGBoost** |
 |------------------------|-----------------------|-------------|
-| **Mean Squared Error** | 3500.00              | 3100.00     |
-| **Mean Absolute Error**| 42.00                | 37.50       |
-| **R² Score**           | 0.92                 | 0.95        |
+| **Mean Squared Error** | 134127899.49          |  47797654.90|
+| **Mean Absolute Error**| 6936.54               |  3951.59    |
+| **R² Score**           | 0.74                  | 0.91        |
 
 ### **Key Observations**:
 1. **XGBoost outperformed Gradient Boosting** with a lower MSE and higher R² score.
