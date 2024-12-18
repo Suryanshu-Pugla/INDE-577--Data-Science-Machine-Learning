@@ -87,18 +87,7 @@ pip install pandas numpy scikit-learn matplotlib
 ## **Results**
 The Regression Tree achieves the following results on the California Housing Dataset:
 - **Mean Squared Error (MSE)**: ~0.52
-- **R² Score**: ~0.66
-
-**Example Output**:
-```
-Dataset Shape: (20640, 8)
-Feature Names: Index(['MedInc', 'HouseAge', 'AveRooms', 'AveBedrms', 'Population',
-                      'AveOccup', 'Latitude', 'Longitude'], dtype='object')
-
-Regression Tree Results:
-Mean Squared Error (MSE): 0.52
-R² Score: 0.66
-```
+- **R² Score**: ~0.60
 
 ---
 
