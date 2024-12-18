@@ -78,24 +78,23 @@ pip install pandas scikit-learn matplotlib
 ## **Results**
 The decision tree classifier achieves high accuracy on the Banknote Authentication Dataset:
 
-- **Accuracy**: ~96%
+- **Accuracy**: ~97%
 
 **Confusion Matrix**:
 ```
-[[137   2]
- [  9 126]]
+[[148   0]
+ [  9 118]]
 ```
 
 **Classification Report**:
 ```
-              precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
-           0       0.94      0.99      0.96       139
-           1       0.98      0.93      0.96       135
+           0       0.94      1.00      0.97       148
+           1       1.00      0.93      0.96       127
 
-    accuracy                           0.96       274
-   macro avg       0.96      0.96      0.96       274
-weighted avg       0.96      0.96      0.96       274
+    accuracy                           0.97       275
+   macro avg       0.97      0.96      0.97       275
 ```
 
 ---
