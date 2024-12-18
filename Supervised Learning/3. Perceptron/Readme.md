@@ -98,8 +98,7 @@ The Perceptron algorithm is a simple linear classifier that learns a decision bo
 
 #### **1. Clone the Repository**
 ```bash
-git clone <repository_link>
-cd perceptron-social-network-ads
+Load the dataset in the working directory of the colab everytime before executing the code. If you want to access the code from the source then you need to change the code for loading the data set.
 ```
 
 #### **2. Install Dependencies**
