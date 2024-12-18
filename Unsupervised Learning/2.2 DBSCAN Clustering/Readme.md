@@ -90,21 +90,14 @@ For clustering, we use **Annual Income** and **Spending Score** as the features.
 
 ### **How to Reproduce This Project**
 
-1. Clone the repository:
+1. Load the dataset:
    ```bash
-   git clone <repository_link>
-   cd mall-customer-segmentation-dbscan
+   Load the dataset in the working directory of the colab everytime before executing the code.
+    If you want to access the code from the source then you need to change   the code for loading the data set.
    ```
+2. Install the required dependencies.
 
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the Jupyter Notebook:
-   ```bash
-   jupyter notebook mall_customer_segmentation.ipynb
-   ```
+3. Run the Google Colab Notebook.
 
 ---
 
