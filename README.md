@@ -1,5 +1,7 @@
 **INDE577**
+
 **Student Name: Suryanshu Pugla**
+
 **Instructor Name: Randy R. Davila**
 
 **GitHub Repository for Machine Learning Models**
