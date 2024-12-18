@@ -1,7 +1,6 @@
 ### **Project: Mall Customer Segmentation Using K-Means Clustering**
 
-![147927776-948a9af0-18bb-49ac-bbc0-30efd2790649](https://github.com/user-attachments/assets/7790bc21-b87a-4abb-b96c-683a7d71567e)
-
+<img src="https://github.com/user-attachments/assets/7790bc21-b87a-4abb-b96c-683a7d71567e" width="50%">
 
 #### **Introduction**
 This project applies the **K-Means Clustering** algorithm to segment customers in a shopping mall based on their spending patterns and annual income. Clustering helps identify groups of customers with similar behaviors, enabling targeted marketing strategies and better business decisions.
@@ -69,7 +68,7 @@ For clustering, we use **Annual Income** and **Spending Score** as the features.
 3. **Visualization**:
    - Created a scatter plot showing clusters in different colors, with centroids marked for each cluster.
 
-![73654cluster](https://github.com/user-attachments/assets/b0eeafcf-b592-42e4-9ec7-5f35ec3664bf)
+<img src="https://github.com/user-attachments/assets/b0eeafcf-b592-42e4-9ec7-5f35ec3664bf" width="50%">
 
 
 ### **Key Insights**
