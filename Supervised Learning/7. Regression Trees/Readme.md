@@ -1,4 +1,6 @@
 # **Regression Tree on California Housing Dataset**
+![Housing-CA-2020-LOGO](https://github.com/user-attachments/assets/553b5989-5dd9-4159-a601-34d20994ce1f)
+
 
 ## **Project Overview**
 This project demonstrates the use of a **Regression Tree** to predict housing prices using the **California Housing Dataset**. The model is built using the `DecisionTreeRegressor` from the `scikit-learn` library and evaluated using standard regression metrics such as **Mean Squared Error (MSE)** and **R² Score**. The project also includes a visualization of the decision tree to interpret the model's behavior.
