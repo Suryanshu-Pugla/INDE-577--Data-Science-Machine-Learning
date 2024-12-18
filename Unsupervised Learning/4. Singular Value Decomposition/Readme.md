@@ -91,7 +91,8 @@ The trade-off between κ (number of singular values) and reconstruction error is
    ```bash
    python svd_image_compression.py
    ```
-
+4. Dataset:
+    Ensure the Wholesale Customers Dataset is in the working directory or update the file path in the script.
 ---
 
 ### **Next Steps**
