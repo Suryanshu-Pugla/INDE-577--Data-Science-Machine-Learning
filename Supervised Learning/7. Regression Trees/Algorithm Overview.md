@@ -1,6 +1,7 @@
 ### **Overview of Regression Trees**
 
----
+<img width="766" alt="BinaryTree" src="https://github.com/user-attachments/assets/f8ae55ed-1610-4c42-b431-9712c3aa4a84" />
+
 
 ### **What are Regression Trees?**
 Regression Trees are a type of **decision tree algorithm** used for **predicting continuous values** in supervised learning tasks. Unlike classification trees that output discrete class labels, regression trees predict numeric outcomes by splitting the data into subsets and calculating the average value at each leaf node.
