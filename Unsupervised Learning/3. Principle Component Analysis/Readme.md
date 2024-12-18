@@ -1,6 +1,6 @@
 ### **PCA Analysis on Wholesale Customers Dataset**
 
-![pca_title-1](https://github.com/user-attachments/assets/120a0d0d-a598-4cea-96e4-bc1df7ce428d)
+<img src="https://github.com/user-attachments/assets/120a0d0d-a598-4cea-96e4-bc1df7ce428d" width="605%">
 
 ### **Project Overview**
 This project applies the **Principal Component Analysis (PCA)** algorithm to the **Wholesale Customers Dataset** to analyze customer spending patterns across various product categories. PCA is used for dimensionality reduction to uncover hidden patterns and simplify data visualization.
