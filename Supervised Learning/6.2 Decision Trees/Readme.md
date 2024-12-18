@@ -1,5 +1,6 @@
 # **Decision Tree Classifier for Banknote Authentication**
-<img src="banknote-authentication.webp" alt="resized" width="50%">
+<img src="banknote-authetication.webp" alt="resized" width="50%">
+
 
 ## **Project Overview**
 This project demonstrates the use of a **Decision Tree Classifier** to predict whether a banknote is **genuine** or **forged** based on numerical features extracted from images. The model is implemented using the **scikit-learn library** and evaluated on the **Banknote Authentication Dataset**.
