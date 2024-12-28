@@ -47,7 +47,7 @@ This Github Repository includes all files and code for the project of Course IND
 
 1. K-Means Clustering: Grouping data into clusters based on similarity.
 
-2. DBSCAN (Density-Based Spatial Clustering): Clustering with noise handling.
+2. Density-Based Spatial Clustering (DBSCAN): Clustering with noise handling.
 
 3. Principal Component Analysis (PCA): Dimensionality reduction for visualization or preprocessing.
 
